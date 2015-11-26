@@ -306,13 +306,24 @@ textarea {
     margin: auto;
 }
 
+/*HEADER CONTENT*/
 
 #logo-PMS img {
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(220, 220, 220, 0.5);
   border-radius: 20px;
 }
 #home .row{
   width: 100%;
   overflow-y: hidden;
+}
+
+/*CAROUSSEL NEWS*/
+.carousel-inner  {
+  color: green;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#newscarousel.item {
+  background-color: rgba(255, 255, 255, 0.4);
 }
