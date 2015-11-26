@@ -278,3 +278,22 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/* ==========================================================================
+   CSS Partie rapide
+   ========================================================================== */
+
+   .row{
+       margin-right: 0px;
+       margin-left: 0px;
+   }
+
+   .thumbnail{
+       opacity: .8;
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
