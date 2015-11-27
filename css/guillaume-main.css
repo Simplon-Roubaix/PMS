@@ -285,10 +285,15 @@ textarea {
 
 /*-------HEADER-----------*/
 
-#home { height:600px;
-  background-image: url("../img/bkg/oldcity2.png");
+.container-fluid {
+  padding: 0;
+}
+
+#home { height:750px;
+
+  /*background-image: url("../img/bkg/oldcity2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 
   margin-left: 0;
   margin-right: 0;
@@ -308,32 +313,97 @@ textarea {
 
 /*HEADER CONTENT*/
 
+/* background-crossfader*/
+
+#bgcrossf {
+  position:relative;
+  height:100%;
+  width: 100%;
+  margin:0 auto;
+  overflow-y: hidden;
+}
+
+#bgcrossf .cfimg {
+  position:absolute;
+  left:0;
+  width:100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes bgcrossfFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#bgcrossf img.top {
+animation-name: bgcrossfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+/*END CROSSFADER*/
+
+
+/*HEADER CONTENT*/
 #logo-PMS img {
   margin-top: 20px;
-  background-color: rgba(220, 220, 220, 0.5);
+  background-color: rgba(220, 220, 220, 0.7);
   border-radius: 20px;
 }
 #home .row{
   width: 100%;
+  margin: 0;
   overflow-y: hidden;
+}
+.btn-header {
+
 }
 
 /*CAROUSSEL NEWS*/
 .carousel-inner  {
-  color: green;
-  padding-left: 20%;
-  padding-right: 20%;
+  color: rgb(56, 56, 56);
 }
-#newscarousel {
-  background-color: rgba(255, 255, 255, 0.4);
+#newscarousel .item{
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  margin: 10px 10%;
+  padding: 10px 10% 20px 10%;
 }
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators li{
+  border: 1px solid #97855F;
+}
+.carousel-indicators .active{
+background-color: #97855F;
+}
+/*END NEWS CAROUSEL*/
 
+
+
+
+
+
+/*TEST STYLING NAVBAR*/
 .navbar-inverse {
   background-color: #16203E !important;
 background-image: none;
 }
-
-/*TEST STYLING NAVBAR*/
 nav li a {
   background-color: #eed39a !important;
   color: #97855F !important;
