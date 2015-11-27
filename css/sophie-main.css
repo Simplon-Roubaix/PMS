@@ -95,24 +95,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .rapide  {
-  height: 400px;
+  height: 365px;
   background-image: url(../img/cyber.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/*Couleur des boutons*/
 .btnperso {
   background-color: #eed39a !important;
   color: #97855F !important;
   border: 2px solid #eed39a !important;
 }
 
+/*Position du bouton*/
 #partierapide {
-  margin-left: 650px;
-  margin-top: 200px;
+margin: auto;
+display: block;
+margin-top: 10%;
 }
 
+/*Section campagne*/
+.campagne {
+  height:365px;
+  background-image: url(../img/fantasy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Position du bouton*/
+#partiecampagne {
+  margin: auto;
+  display: block;
+  margin-top: 10%
+}
 
 
 
