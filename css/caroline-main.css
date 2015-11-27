@@ -94,20 +94,255 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* =========================general============================ */
+body {
+    background-color: #97855F;
+    color:#16203E;
+}
+
+h1 {
+    font-family: 'Slackey', cursive;
+    color:#16203E;
+    text-align: center;
+    font-size: 5em;
+}
+
+p {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+}
+
+h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    color:#16203E;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* =========================qui sommes-nous=========================== */
+
+/*/avatars///*/
+.Sophie {
+transition: all .5s ease;
+background-image:url(../img/avatars-team/sophie.png);
+}
+
+.Caroline {
+transition: all .5s ease;
+background-image:url(../img/avatars-team/caroline.png);
+}
+
+.Anthony {
+transition: all .5s ease;
+background-image:url(../img/avatars-team/anthony.png);
+}
+
+.Guillaume {
+transition: all .5s ease;
+background-image:url(../img/avatars-team/guillaume.png);
+}
+
+.Marc {
+transition: all .5s ease;
+background-image:url(../img/avatars-team/marc.png);
+}
+
+/*///////hover avatars//////*/
+.Sophie:hover
+{
+    height: 200px;
+    width: 200px;
+}
+
+.Caroline:hover
+{
+    height: 200px;
+    width: 200px;
+}
+.Anthony:hover
+{
+    height: 200px;
+    width: 200px;
+}
+.Guillaume:hover
+{
+    height: 200px;
+    width: 200px;
+}
+.Marc:hover
+{
+    height: 200px;
+    width: 200px;
+}
+
+.quisommesnous ul li {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    height: 11em;
+    line-height: 13.5em;
+    margin: 0 1.25em;
+    padding: 0;
+    width: 11em;
+    background-repeat: no-repeat;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li {
+    background-color:white;
+}
+
+/* =========================contact============================ */
+
+.contact {
+    background-color:#c2a260;
+}
+
+/*/icons contact///*/
+/*.contact i {
+    border: 1px solid #16203E;
+    border-radius: 50%;
+    color: #16203E;
+    height: 1.5em;
+    margin: 0 1.25em;
+    padding: 8px;
+    width: 1.5em;
+}*/
+
+.contact i {
+
+ font-size: 2.5rem; }
+
+.icon-button {
+
+ border-radius: 3.6rem;
+
+ width: 3.6rem;
+
+ height: 3.6rem;
+
+ margin: 0 5px;
+
+ position: relative;
+
+ display: inline-block;
+
+ text-align: center;
+
+ font-size: 2rem;
+
+ background: white; }
+
+ .icon-button span {
+
+   display: block;
+
+   border-radius: 0;
+
+   width: 0;
+
+   height: 0;
+
+   position: absolute;
+
+   left: 50%;
+
+   top: 50%;
+
+   transition: all 0.3s; }
+
+ .icon-button:hover span {
+
+   display: block;
+
+   border-radius: 3.6rem;
+
+   width: 3.6rem;
+
+   height: 3.6rem;
+
+   margin: -1.8rem; }
+
+ .icon-button i {
+
+   background: none;
+
+   height: 3.6rem;
+
+   width: 3.6rem;
+
+   position: absolute;
+
+   left: 0;
+
+   top: 0;
+
+   z-index: 10;
+
+   line-height: 3.6rem;
+
+   transition: all 0.3s; }
 
 
+.twitter span {
+
+ background-color: #4099ff ; }
 
 
+.facebook span {
+
+ background-color: #4099ff ; }
 
 
+.gplus span {
+
+ background-color: #4099ff ; }
+
+ .email span {
+     background-color: #4099ff ;
+ }
 
 
+/*.icon-button .fi-social-twitter {
+
+ color: #4099ff ; }
 
 
+.icon-button .fi-social-facebook {
+
+ color: #4099ff ; }
 
 
+.icon-button .fi-social-google-plus {
 
+ color: #4099ff ; }
 
+ .icon-button .fi-social-email {
+
+  color: #4099ff ; }*/
+
+/*
+.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
+
+ color: white;
+
+ font-size: 2.6rem;
+
+ line-height: 3.9rem; }*/
+
+/* =========================contribuer============================ */
+.contribuer a{
+    color:#16203E;
+}
+
+/* =========================FAQ============================ */
 
 
 
