@@ -114,6 +114,7 @@ textarea {
 margin: auto;
 display: block;
 margin-top: 10%;
+margin-bottom: 5%;
 }
 
 #rapide {
@@ -141,7 +142,8 @@ margin-top: 10%;
 #partiecampagne {
   margin: auto;
   display: block;
-  margin-top: 10%
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 
