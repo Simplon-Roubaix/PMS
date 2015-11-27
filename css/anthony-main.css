@@ -290,14 +290,14 @@ textarea {
        background-color: #eed39a;
    }
 
-   .tuto{
-       background-color: #97855F;
-   }
-
    .thumbnail{
        opacity: .8;
-       border: none;
-       background-color: lightgray;
+       background-color: #eed39a;
+       border: 20px solid transparent;
+       padding: 3px;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
    }
 
    .thumbnail:hover{
