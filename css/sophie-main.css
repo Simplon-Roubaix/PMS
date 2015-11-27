@@ -94,11 +94,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.rapide  {
+  height: 400px;
+  background-image: url(../img/cyber.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.btnperso {
+  background-color: #eed39a !important;
+  color: #97855F !important;
+  border: 2px solid #eed39a !important;
+}
 
-
-
-
+#partierapide {
+  margin-left: 650px;
+  margin-top: 200px;
+}
 
 
 
