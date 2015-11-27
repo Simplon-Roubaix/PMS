@@ -324,6 +324,25 @@ textarea {
   padding-left: 20%;
   padding-right: 20%;
 }
-#newscarousel.item {
+#newscarousel {
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-inverse {
+  background-color: #16203E !important;
+background-image: none;
+}
+
+/*TEST STYLING NAVBAR*/
+nav li a {
+  background-color: #eed39a !important;
+  color: #97855F !important;
+  border: 2px solid #eed39a !important;
+  margin-left: 15px;
+}
+nav li a:hover {
+  background-color: #97855F !important;
+  color: #fff !important;
+  border: 2px solid #eed39a !important;
+  margin-left: 15px;
 }
