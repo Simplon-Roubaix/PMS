@@ -14,10 +14,13 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
+    font-family: 'Permanent Marker', cursive;
+  }
 
 body {
   padding-top: 50px; /*fixed navbar top */
+
+  font-family: 'Permanent Marker', cursive;
 }
 
 /*
@@ -300,7 +303,7 @@ textarea {
 }
 
 
-/*HEADER NAVBAR*/
+/* NAVBAR*/
 .navbar-brand
 {
     position: absolute;
@@ -311,50 +314,134 @@ textarea {
     margin: auto;
 }
 
+
+
 /*HEADER CONTENT*/
 
 /* background-crossfader*/
-
-#bgcrossf {
-  position:relative;
-  height:100%;
-  width: 100%;
-  margin:0 auto;
-  overflow-y: hidden;
+@-webkit-keyframes bgcrossfFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 30% {
+   opacity:1;
+ }
+ 33% {
+   opacity:0;
+ }
+ 97% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
 }
 
-#bgcrossf .cfimg {
-  position:absolute;
-  left:0;
-  width:100%;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+@-moz-keyframes bgcrossfFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 30% {
+   opacity:1;
+ }
+ 33% {
+   opacity:0;
+ }
+ 97% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes bgcrossfFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 30% {
+   opacity:1;
+ }
+ 33% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
 }
 
 @keyframes bgcrossfFadeInOut {
-  0% {
-  opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
+ 0% {
+   opacity:1;
+ }
+ 30% {
+   opacity:1;
+ }
+ 33% {
+   opacity:0;
+ }
+ 97% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
 }
 
-#bgcrossf img.top {
-animation-name: bgcrossfFadeInOut;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 10s;
-animation-direction: alternate;
+#bgcrossf {
+  position:relative;
+  height:750px;
+  width:100%;
+  margin:0 auto;
+  overflow: hidden;
 }
+#bgcrossf .bgimg {
+  position:absolute;
+height: 100%;
+min-width: 100%;
+  left:0;
+}
+
+#bgcrossf .bgimg {
+  -webkit-animation-name: bgcrossfFadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 30s ;
+
+  -moz-animation-name: bgcrossfFadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 30s;
+
+  -o-animation-name: bgcrossfFadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 30s;
+
+
+}
+#bgcrossf .bgimg:nth-of-type(1) {
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  -o-animation-delay: 20s;
+  animation-delay: 20s;
+}
+#bgcrossf .bgimg:nth-of-type(2) {
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  -o-animation-delay: 10s;
+  animation-delay: 10s;
+}
+#bgcrossf .bgimg:nth-of-type(3) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
 /*END CROSSFADER*/
 
 
@@ -369,9 +456,7 @@ animation-direction: alternate;
   margin: 0;
   overflow-y: hidden;
 }
-.btn-header {
 
-}
 
 /*CAROUSSEL NEWS*/
 .carousel-inner  {
@@ -404,15 +489,28 @@ background-color: #97855F;
   background-color: #16203E !important;
 background-image: none;
 }
-nav li a {
-  background-color: #eed39a !important;
-  color: #97855F !important;
-  border: 2px solid #eed39a !important;
-  margin-left: 15px;
+#navdropd {
+  background-color:#16203E;
 }
-nav li a:hover {
+nav li a {
+  padding: 5px !important;
+  margin-top: 8px !important;
+}
+.btn-general {
+  background-color: #eed39a !important;
+  color: #6c5a33 !important;
+  border: 2px solid #eed39a !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+.btn-general:hover {
   background-color: #97855F !important;
   color: #fff !important;
   border: 2px solid #eed39a !important;
   margin-left: 15px;
+}
+.btn-extensed {
+  padding:20px;
 }
