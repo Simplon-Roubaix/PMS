@@ -233,17 +233,6 @@ background-color:#c2a260 !important;
     color:#16203E;
 }
 
-/*/icons contact///*/
-/*.contact i {
-    border: 1px solid #16203E;
-    border-radius: 50%;
-    color: #16203E;
-    height: 1.5em;
-    margin: 0 1.25em;
-    padding: 8px;
-    width: 1.5em;
-}*/
-
 .contact i {
  font-size: 2.5rem;
 }
@@ -365,6 +354,52 @@ background-color:#c2a260 !important;
     color: #454444;
 }
 
+/* =========================MEDIA QUERIES============================ */
+
+/*/////////////////////////////screen until 767px////////////////////////*/
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.4em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    h2, h3 {
+        font-family: 'Fredericka the Great', cursive;
+        color:#16203E;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1em;
+    }
+}
+
+/*/////////////////////////////screen between 768px-1023px////////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    p {
+        font-family: 'Fredericka the Great', cursive;
+        text-align: center;
+        font-size: 1.5em;
+        color:white;
+    }
+
+    h2, h3 {
+        font-family: 'Fredericka the Great', cursive;
+        color:#16203E;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+    }
+}
+
+/*/////////////////////////////screen between 1024px and more////////////////////////*/
+/*@media screen and (min-width: 1024px) {
+}*/
 
 
 
