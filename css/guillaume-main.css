@@ -250,6 +250,8 @@ textarea {
   left: 0;
   top: 0;
   text-align: center;
+  font-family: 'Audiowide', cursive;
+  color: rgb(199, 19, 19) !important;
   margin: auto;
 }
 
@@ -485,6 +487,13 @@ nav li a {
 }
 .carousel-inner {
   color: rgb(56, 56, 56);
+}
+.carousel-inner h3 {
+  font-family: 'Audiowide', cursive;
+}
+.carousel-inner .btn-general{
+  margin-top: 0;
+  padding: 0;
 }
 .carousel-indicators {
   bottom: 0;
