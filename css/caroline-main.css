@@ -218,6 +218,21 @@ li {
     padding:20px;
 }
 
+.well {
+background-color:#c2a260 !important;
+}
+
+.headercontact {
+    color:#16203E;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color:#16203E;
+}
+
 /*/icons contact///*/
 /*.contact i {
     border: 1px solid #16203E;
@@ -306,6 +321,11 @@ li {
 
 /* =========================FAQ============================ */
 
+
+.panel-group {
+    border: solid 2px #16203E;
+}
+
 .faq {
     padding:20px;
 }
@@ -344,6 +364,9 @@ li {
     transform: rotate(90deg);
     color: #454444;
 }
+
+
+
 
 /* ==========================================================================
    Helper classes
