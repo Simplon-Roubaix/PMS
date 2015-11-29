@@ -94,6 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
    /* =========================general============================ */
 body {
     background-color: #97855F;
@@ -101,16 +103,17 @@ body {
 }
 
 h1 {
-    font-family: 'Slackey', cursive;
+    font-family: 'Fredericka the Great', cursive;
     color:#16203E;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
+    font-weight: bold;
 }
 
 p {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color:white;
 }
 
@@ -119,9 +122,14 @@ h2, h3 {
     color:#16203E;
     text-align: center;
     font-weight: bold;
+    font-size: 2em;
 }
 
 /* =========================qui sommes-nous=========================== */
+
+.quisommesnous {
+    padding:20px;
+}
 
 /*/avatars///*/
 .Sophie {
@@ -199,10 +207,15 @@ li {
     background-color:white;
 }
 
+.about {
+    background-color:#c2a260;
+    padding:20px;
+}
+
 /* =========================contact============================ */
 
 .contact {
-    background-color:#c2a260;
+    padding:20px;
 }
 
 /*/icons contact///*/
@@ -217,134 +230,120 @@ li {
 }*/
 
 .contact i {
-
- font-size: 2.5rem; }
+ font-size: 2.5rem;
+}
 
 .icon-button {
-
  border-radius: 3.6rem;
-
  width: 3.6rem;
-
  height: 3.6rem;
-
  margin: 0 5px;
-
  position: relative;
-
  display: inline-block;
-
  text-align: center;
-
  font-size: 2rem;
-
- background: white; }
+ background: white;
+}
 
  .icon-button span {
-
    display: block;
-
    border-radius: 0;
-
    width: 0;
-
    height: 0;
-
    position: absolute;
-
    left: 50%;
-
    top: 50%;
-
-   transition: all 0.3s; }
+   transition: all 0.3s;
+}
 
  .icon-button:hover span {
-
    display: block;
-
    border-radius: 3.6rem;
-
    width: 3.6rem;
-
    height: 3.6rem;
-
-   margin: -1.8rem; }
+   margin: -1.8rem;
+}
 
  .icon-button i {
-
    background: none;
-
    height: 3.6rem;
-
    width: 3.6rem;
-
    position: absolute;
-
    left: 0;
-
    top: 0;
-
    z-index: 10;
-
    line-height: 3.6rem;
-
-   transition: all 0.3s; }
-
+   transition: all 0.3s;
+}
 
 .twitter span {
-
- background-color: #4099ff ; }
-
+ background-color: #4099ff ;
+}
 
 .facebook span {
-
- background-color: #4099ff ; }
-
+ background-color: #4099ff ;
+}
 
 .gplus span {
-
- background-color: #4099ff ; }
+ background-color: #4099ff ;
+}
 
  .email span {
      background-color: #4099ff ;
  }
 
 
-/*.icon-button .fi-social-twitter {
-
- color: #4099ff ; }
-
-
-.icon-button .fi-social-facebook {
-
- color: #4099ff ; }
-
-
-.icon-button .fi-social-google-plus {
-
- color: #4099ff ; }
-
- .icon-button .fi-social-email {
-
-  color: #4099ff ; }*/
-
-/*
-.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
-
- color: white;
-
- font-size: 2.6rem;
-
- line-height: 3.9rem; }*/
-
 /* =========================contribuer============================ */
+
+.contribuer {
+    background-color:#c2a260;
+    padding:20px;
+}
+
 .contribuer a{
     color:#16203E;
 }
 
 /* =========================FAQ============================ */
 
+.faq {
+    padding:20px;
+}
 
+.faq a{
+    color:#16203E;
+}
+
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings';
+    content: "e072"; /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;
+    /* rotate "play" icon from > (right arrow) to down arrow */
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #454444;
+}
 
 /* ==========================================================================
    Helper classes
