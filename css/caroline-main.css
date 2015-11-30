@@ -251,7 +251,8 @@ transition: all .5s ease;
 }
 
 .well {
-background-color:#d2ba92;
+background-color:#d2ba92 !important;
+background-image: none;
 }
 
 .headercontact {
@@ -272,6 +273,7 @@ background-color:#d2ba92;
 .btn {
     background-color:#212328;
     color:#d2ba92;
+    background-image: none;
 }
 
 .btn:hover {
