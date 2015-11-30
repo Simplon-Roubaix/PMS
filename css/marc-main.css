@@ -95,19 +95,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*------ BODY ------*/
+.btn-general {
+  background-color: #eed39a !important;
+  color: #6c5a33 !important;
+  border: 2px solid #eed39a !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px 0;
+  font-size: 1.1em;
+}
 
+.btn-general:hover {
+  background-color: #97855F !important;
+  color: #fff !important;
+  border: 2px solid #eed39a !important;
+  margin-left: 15px;
+}
+/*------ END BODY ------*/
 
+/*------ NAVBAR ------*/
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  color: rgb(199, 19, 19) !important;
+  margin: auto;
+}
 
+.navbar-inverse {
+  background-color: #16203E !important;
+  background-image: none;
+}
 
+#navdropd {
+  background-color: #16203E;
+}
 
-
-
-
-
-
-
-
-
+nav li a {
+  padding: 5px !important;
+  margin-top: 8px !important;
+}
+/*------ END NAVBAR ------*/
 
 
 
