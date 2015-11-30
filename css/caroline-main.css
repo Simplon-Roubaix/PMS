@@ -347,7 +347,7 @@ background-image: none;
 
 
 .panel-group {
-    border: solid 2px #212328;
+    /*border: solid 2px #212328;*/
     background-color: #d2ba92;
 }
 
