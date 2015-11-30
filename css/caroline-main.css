@@ -98,32 +98,27 @@ textarea {
 
    /* =========================general============================ */
 body {
-    background-color: #e9d7b1;
-    /*color:#16203E;*/
+    background-color: rgba(255,255,255,0.5);
     color:#212328;
     font-family: 'Permanent Marker', cursive;
+    text-align: justify;
 }
 
 h1 {
-    /*font-family: 'Fredericka the Great', cursive;*/
     color:#212328;
     text-align: center;
     font-size: 3em;
-    /*font-weight: bold;*/
 }
 
 p {
-    /*font-family: 'Fredericka the Great', cursive;*/
     text-align: center;
     font-size: 1.2em;
-    color:white;
+    color:#212328;
 }
 
 h2, h3 {
-    /*font-family: 'Fredericka the Great', cursive;*/
     color:#212328;
     text-align: center;
-    /*font-weight: bold;*/
     font-size: 2em;
 }
 
@@ -240,12 +235,8 @@ transition: all .5s ease;
     padding-right: 5px;
 }
 
-li {
-    background-color:white;
-}
-
 .about {
-    background-color:#786f60;
+    background-color:#d2ba92;
     padding:20px;
 }
 
@@ -256,7 +247,7 @@ li {
 }
 
 .well {
-background-color:#786f60 !important;
+background-color:#d2ba92;
 }
 
 .headercontact {
@@ -276,12 +267,11 @@ background-color:#786f60 !important;
 
 .btn {
     background-color:#212328;
-    width: 300px;
-    color:white;
+    color:#d2ba92;
 }
 
 .btn:hover {
-    color:white;
+    color:#d2ba92;
 }
 
 .icon-button {
@@ -293,7 +283,8 @@ background-color:#786f60 !important;
  display: inline-block;
  text-align: center;
  font-size: 2rem;
- background: white;
+ background: #212328;
+ color:#d2ba92;
 }
 
  .icon-button span {
@@ -313,6 +304,8 @@ background-color:#786f60 !important;
    width: 3.6rem;
    height: 3.6rem;
    margin: -1.8rem;
+   background-color:#d2ba92;
+   color:#212328;
 }
 
  .icon-button i {
@@ -325,29 +318,18 @@ background-color:#786f60 !important;
    z-index: 10;
    line-height: 3.6rem;
    transition: all 0.3s;
+   color:#d2ba92;
 }
 
-.twitter span {
- background-color: #4099ff ;
+.icon-button:hover i {
+    color:#212328;
 }
-
-.facebook span {
- background-color: #4099ff ;
-}
-
-.gplus span {
- background-color: #4099ff ;
-}
-
- .email span {
-    background-color: #4099ff ;
- }
 
 
 /* =========================contribuer============================ */
 
 .contribuer {
-    background-color:#786f60;
+    background-color:#d2ba92;
     padding:20px;
 }
 
@@ -360,6 +342,7 @@ background-color:#786f60 !important;
 
 .panel-group {
     border: solid 2px #212328;
+    background-color: #d2ba92;
 }
 
 .faq {
@@ -373,7 +356,6 @@ background-color:#786f60 !important;
 .faqHeader {
     font-size: 27px;
     margin: 20px;
-    /*font-family: 'Fredericka the Great', cursive;*/
 }
 
 .panel-heading [data-toggle="collapse"]:after {
@@ -418,6 +400,7 @@ background-color:#786f60 !important;
         font-weight: bold;
         font-size: 1em;
     }
+
 }
 
 /*/////////////////////////////screen between 768px-1023px////////////////////////*/
@@ -440,11 +423,19 @@ background-color:#786f60 !important;
         font-weight: bold;
         font-size: 2em;
     }
+
+    .btn {
+        width: 300px;
+    }
+
 }
 
 /*/////////////////////////////screen between 1024px and more////////////////////////*/
-/*@media screen and (min-width: 1024px) {
-}*/
+@media screen and (min-width: 1024px) {
+    .btn {
+        width: 300px;
+    }
+}
 
 
 
