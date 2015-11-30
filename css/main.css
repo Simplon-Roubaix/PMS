@@ -160,7 +160,9 @@ textarea {
    /*HEADER CONTENT*/
 
    /*-------HEADER-----------*/
-
+header {
+  height:100vh;
+}
    .container-fluid {
      padding: 0;
    }
@@ -380,7 +382,16 @@ textarea {
    /*END NEWS CAROUSEL*/
    /*END CONTENT */
 
+#toprapide, #topcampagne {
+  height: 100vh;
+}
+
    /*Style de la police*/
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
    body {
      font-family: 'Permanent Marker', cursive;
      font-size: 100%;
@@ -388,7 +399,7 @@ textarea {
 
    /*taille, image de fond et position de la section partie rapide*/
    .rapide  {
-     height: 780px;
+
      background-image: url(../img/cyber.jpg);
      background-position: center;
      background-size: cover;
@@ -397,12 +408,12 @@ textarea {
 
    }
 
-   @media all and (max-width:600px) {
+   @media all and (max-width:480px) {
      .rapide {
-       background-position: -700px 0 ;
+       background-position: -400px 0 ;
      }
      .campagne {
-       background-position: -300px 0;
+       background-position: -200px 0;
      }
    }
 
@@ -436,7 +447,7 @@ textarea {
 
    /*Section campagne*/
    .campagne {
-     height: 790px;
+
      background-image: url(../img/fantasy.jpg);
      background-size: cover;
      background-repeat: no-repeat;
