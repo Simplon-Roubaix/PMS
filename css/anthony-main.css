@@ -293,7 +293,8 @@ textarea {
 
        .thumbnail{
        opacity: .8;
-       background-color: #eed39a;
+       /*background-color: #eed39a;*/
+       background-color: white;
        border: 20px solid transparent;
        padding: 3px;
        -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
@@ -305,6 +306,11 @@ textarea {
        opacity: 1;
 
    }
+
+.btn-primary,.btn-default
+{
+    width : 150px;
+}
 
    /* NAVBAR*/
 
