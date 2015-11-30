@@ -104,6 +104,10 @@ body {
     text-align: justify;
 }
 
+.breadcrumb a {
+    color:#212328;
+}
+
 h1 {
     color:#212328;
     text-align: center;
