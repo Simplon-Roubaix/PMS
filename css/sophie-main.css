@@ -94,8 +94,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, p {
+  font-family: 'Permanent Marker', cursive;
+}
+
 .rapide  {
-  height: 365px;
+  height: 780px;
   background-image: url(../img/cyber.jpg);
   background-position: center;
   background-size: cover;
@@ -126,7 +130,7 @@ margin-bottom: 5%;
 
 /*Section campagne*/
 .campagne {
-  height:365px;
+  height: 780px;
   background-image: url(../img/fantasy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,7 +150,17 @@ margin-bottom: 5%;
   margin-bottom: 5%;
 }
 
+footer {
+  background-color: #eed39a;
+}
 
+#faq {
+  padding-bottom: 5%;
+}
+
+#reseaux {
+  padding-bottom: 5%;
+}
 
 
 
