@@ -340,7 +340,7 @@ textarea {
   .btn-general {
     background-color: #DFE5E6 !important;
     color: #6c5a33 !important;
-    border: 2px solid #DB1522 !important;
+    border: 2px solid #DFE5E6 !important;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -350,8 +350,7 @@ textarea {
   .btn-general:hover {
     background-color: #DFE5E6 !important;
     color: #6c5a33 !important;
-    border: 2px solid #DB1522 !important;
-    margin-left: 15px;
+    border: 2px solid #DFE5E6 !important;
   }
   .btn-extensed {
     padding: 20px;
