@@ -125,6 +125,10 @@ margin-top: 10%;
 margin-bottom: 5%;
 }
 
+#partierapide:hover {
+  color:white !important;
+}
+
 #rapide {
   border:solid 3px #eed39a;
   margin-top: 5%;
@@ -134,7 +138,7 @@ margin-bottom: 5%;
 
 /*Section campagne*/
 .campagne {
-  height: 780px;
+  height: 790px;
   background-image: url(../img/fantasy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -156,6 +160,10 @@ margin-bottom: 5%;
   margin-bottom: 5%;
 }
 
+#partiecampagne:hover {
+  color: white !important;
+}
+
 footer {
   background-color: #eed39a;
 }
@@ -169,6 +177,10 @@ li {
   margin-left: 15%;
 }
 
+li:hover {
+  color:white;
+}
+
 #reseaux {
   padding-bottom: 5%;
 }
@@ -176,11 +188,6 @@ li {
 #facebook, #twitter, #google {
   margin-left: 15%;
 }
-
-
-
-
-
 
 
 
