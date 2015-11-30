@@ -111,6 +111,14 @@ body {
 
 }
 
+@media all and (max-width:600px) {
+  .rapide {
+    background-position: -700px 0 ;
+  }
+  .campagne {
+    background-position: -300px 0;
+  }
+}
 
 /*Couleur des boutons*/
 .btnperso {
@@ -201,8 +209,6 @@ li:hover {
   margin-left: 15%;
   color:#333;
 }
-
-
 
 
 
