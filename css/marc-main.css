@@ -111,6 +111,11 @@ section {
   padding: inherit 2px;
 }
 
+.breadcrumb {
+  background-color: transparent;
+  font-family: 'Audiowide', cursive;
+}
+
 h1 , h2 {
   line-height: 200%;
 }
