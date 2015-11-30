@@ -288,13 +288,13 @@ textarea {
    section{
        padding-top: 50px;
        /*background-color: #eed39a;*/
-       background-color: white;
+       background-color: #B9CCB8;
    }
 
        .thumbnail{
        opacity: .8;
        /*background-color: #eed39a;*/
-       background-color: white;
+       background-color: #B9CCB8;
        border: 20px solid transparent;
        padding: 3px;
        -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
@@ -326,20 +326,20 @@ textarea {
   }
 
   .navbar-inverse {
-    background-color: #16203E !important;
+    background-color: #6593A0 !important;
     background-image: none;
   }
   #navdropd {
-    background-color: #16203E;
+    background-color: #6593A0;
   }
   nav li a {
     padding: 5px !important;
     margin-top: 8px !important;
   }
   .btn-general {
-    background-color: #eed39a !important;
+    background-color: #DFE5E6 !important;
     color: #6c5a33 !important;
-    border: 2px solid #eed39a !important;
+    border: 2px solid #DB1522 !important;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -347,9 +347,9 @@ textarea {
     font-size: 1.1em;
   }
   .btn-general:hover {
-    background-color: #97855F !important;
-    color: #fff !important;
-    border: 2px solid #eed39a !important;
+    background-color: #DFE5E6 !important;
+    color: #6c5a33 !important;
+    border: 2px solid #DB1522 !important;
     margin-left: 15px;
   }
   .btn-extensed {
