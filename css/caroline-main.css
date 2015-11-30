@@ -98,30 +98,32 @@ textarea {
 
    /* =========================general============================ */
 body {
-    background-color: #97855F;
-    color:#16203E;
+    background-color: #e9d7b1;
+    /*color:#16203E;*/
+    color:#212328;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h1 {
-    font-family: 'Fredericka the Great', cursive;
-    color:#16203E;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    color:#212328;
     text-align: center;
-    font-size: 4em;
-    font-weight: bold;
+    font-size: 3em;
+    /*font-weight: bold;*/
 }
 
 p {
-    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color:white;
 }
 
 h2, h3 {
-    font-family: 'Fredericka the Great', cursive;
-    color:#16203E;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    color:#212328;
     text-align: center;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 2em;
 }
 
@@ -129,60 +131,95 @@ h2, h3 {
 
 .quisommesnous {
     padding:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 /*/avatars///*/
 .Sophie {
 transition: all .5s ease;
-background-image:url(../img/avatars-team/sophie.png);
+}
+
+.Sophie img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
 }
 
 .Caroline {
 transition: all .5s ease;
-background-image:url(../img/avatars-team/caroline.png);
+}
+
+.Caroline img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
 }
 
 .Anthony {
 transition: all .5s ease;
-background-image:url(../img/avatars-team/anthony.png);
+}
+
+.Anthony img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
 }
 
 .Guillaume {
 transition: all .5s ease;
-background-image:url(../img/avatars-team/guillaume.png);
+}
+
+.Guillaume img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
 }
 
 .Marc {
 transition: all .5s ease;
-background-image:url(../img/avatars-team/marc.png);
+}
+
+.Marc img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
 }
 
 /*///////hover avatars//////*/
-.Sophie:hover
-{
-    height: 200px;
-    width: 200px;
+.Sophie:hover {
+    height: 185px;
+    width: 185px;
 }
 
-.Caroline:hover
-{
-    height: 200px;
-    width: 200px;
+.Caroline:hover {
+    height: 185px;
+    width: 185px;
 }
-.Anthony:hover
-{
-    height: 200px;
-    width: 200px;
+
+.Anthony:hover {
+    height: 185px;
+    width: 185px;
 }
-.Guillaume:hover
-{
-    height: 200px;
-    width: 200px;
+
+.Guillaume:hover {
+    height: 185px;
+    width: 185px;
 }
-.Marc:hover
-{
-    height: 200px;
-    width: 200px;
+
+.Marc:hover {
+    height: 185px;
+    width: 185px;
 }
 
 .quisommesnous ul li {
@@ -208,7 +245,7 @@ li {
 }
 
 .about {
-    background-color:#c2a260;
+    background-color:#786f60;
     padding:20px;
 }
 
@@ -219,22 +256,32 @@ li {
 }
 
 .well {
-background-color:#c2a260 !important;
+background-color:#786f60 !important;
 }
 
 .headercontact {
-    color:#16203E;
+    color:#212328;
     font-size: 27px;
     padding: 10px;
 }
 
 .bigicon {
     font-size: 35px;
-    color:#16203E;
+    color:#212328;
 }
 
 .contact i {
  font-size: 2.5rem;
+}
+
+.btn {
+    background-color:#212328;
+    width: 300px;
+    color:white;
+}
+
+.btn:hover {
+    color:white;
 }
 
 .icon-button {
@@ -293,26 +340,26 @@ background-color:#c2a260 !important;
 }
 
  .email span {
-     background-color: #4099ff ;
+    background-color: #4099ff ;
  }
 
 
 /* =========================contribuer============================ */
 
 .contribuer {
-    background-color:#c2a260;
+    background-color:#786f60;
     padding:20px;
 }
 
 .contribuer a{
-    color:#16203E;
+    color:#212328;
 }
 
 /* =========================FAQ============================ */
 
 
 .panel-group {
-    border: solid 2px #16203E;
+    border: solid 2px #212328;
 }
 
 .faq {
@@ -320,23 +367,21 @@ background-color:#c2a260 !important;
 }
 
 .faq a{
-    color:#16203E;
+    color:#212328;
 }
 
 .faqHeader {
     font-size: 27px;
     margin: 20px;
-    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
 }
 
 .panel-heading [data-toggle="collapse"]:after {
-    font-family: 'Glyphicons Halflings';
-    content: "e072"; /* "play" icon */
+    /*font-family: 'Glyphicons Halflings';*/
     float: right;
     color: #F58723;
     font-size: 18px;
     line-height: 22px;
-    /* rotate "play" icon from > (right arrow) to down arrow */
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
