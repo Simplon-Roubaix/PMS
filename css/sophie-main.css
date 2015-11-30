@@ -195,7 +195,7 @@ footer li {
 }
 
 /*hover de la liste de la FAQ*/
-li:hover {
+footer li:hover {
   color:white;
 }
 
