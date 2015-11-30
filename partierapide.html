@@ -20,33 +20,39 @@
 
 <body>
     <header>
-        <div id="home" class="row">
-            <!-- NAVIGATION -->
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-collapse  collapse" id="navbar">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li><a href="#footer" id="aboutbtn" class="btn btn-test" role="button">A propos</a></li>
-                        </ul>
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand nav-bar-center" href="#">Play my story</a>
-                        </div>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="" id="inscbtn" class="btn btn-test" role="button">Inscription</a></li>
-                            <li><a href="#style" id="connbtn" class="btn btn-test" role="button">Connexion</a></li>
-                        </ul>
-                    </div>
-
-                    <!--/.navbar-collapse -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-            </nav>
-        </div>
+
+                <div class="navbar-collapse  collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
+             <span class="caret"></span></a>
+                            <ul id="navdropd" class="dropdown-menu">
+                                <li><a href="#" class="btn btn-general" role="button">Partie rapide</a></li>
+                                <li><a href="#" class="btn btn-general" role="button">Campagne</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#footer" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
+                        <li><a href="#style" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
 
     </header>
 
@@ -56,7 +62,7 @@
         <div class="row">
             <h1 id="catalogue">Catalogue partie rapide :</h1>
             <div class="col-sm-6 col-md-4">
-                <div class="thumbnail" >
+                <div class="thumbnail">
                     <img src="https://c2.staticflickr.com/4/3948/15059397913_e1d78a04f9_b.jpg" alt="...">
                     <div class="caption">
                         <h3>Histoire 01</h3>
