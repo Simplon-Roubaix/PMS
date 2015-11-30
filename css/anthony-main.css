@@ -300,6 +300,7 @@ textarea {
        -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
        -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
        border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
    }
 
    .thumbnail:hover{
@@ -356,3 +357,37 @@ textarea {
     padding: 20px;
     font-size: 1.4em
   }
+
+/* //NAVBAR // */
+
+/*Couleur de fond du footer*/
+footer {
+  background-color: #eed39a;
+}
+
+/*Position de la FAQ*/
+#faq {
+  padding-bottom: 5%;
+  margin-left: 15%;
+}
+
+/*Position de la liste de la FAQ*/
+footer li {
+  margin-left: 15%;
+}
+
+/*hover de la liste de la FAQ*/
+li:hover {
+  color:white;
+}
+
+/*Position du titre réseaux sociaux*/
+#reseaux {
+  padding-bottom: 5%;
+}
+
+/*Position et couleur des fafa réseaux sociaux*/
+#facebook, #twitter, #google {
+  margin-left: 15%;
+  color:#333;
+}
