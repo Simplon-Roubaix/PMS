@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Le site dont vous êtes le héro</title>
   <meta name="description" content="Histoires interactives">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
   <!-- FAVICON -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -61,8 +61,8 @@
           <li><a href="#footer" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
-          <li><a href="#style" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
+          <li><a href="#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
+          <li><a href="#login" id="connbtn" class="btn btn-general" role="button"><span class="fa fa-sign-in"></span> Connexion</a></li>
         </ul>
       </div>
     </div>
@@ -70,8 +70,9 @@
   <!-- END NAVBAR -->
 
   <main>
+
     <!-- LOGIN -->
-    <section class="container-fluid">
+    <section id="login" class="container-fluid">
       <h1 class="text-center">Connexion</h1>
       <div class="row socialbuttons">
         <div class="col-xs-offset-2 col-xs-2 text-center">
@@ -101,7 +102,7 @@
           <form action="" autocomplete="off" method="POST">
             <div class="input-group">
               <span class="input-group-addon"><span class="fa fa-user input-icon"></span></span>
-              <input type="text" class="form-control" name="username" placeholder="votreadresse@mail.com">
+              <input type="email" class="form-control" name="username" placeholder="votreadresse@mail.com">
             </div>
             <span class="help-block"></span>
             <div class="input-group">
@@ -109,7 +110,7 @@
               <input type="password" class="form-control" name="password" placeholder="mot de passe">
             </div>
             <span class="help-block"></span>
-            <button class="btn btn-block btn-general" type="submit">Se connecter</button>
+            <button class="btn btn-block btn-general" type="submit">Me connecter</button>
           </form>
         </div>
       </div>
@@ -127,6 +128,55 @@
       </div>
     </section>
     <!-- END LOGIN -->
+
+    <!-- SUBSCRIBE -->
+    <section id="subscribe" class="container-fluid">
+      <h2 class="text-center">Inscription</h2>
+      <p class="text-center">Les champs marqués d'un astérisque sont obligatoires</p>
+      <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8">
+          <form action="" autocomplete="off" method="POST">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-envelope input-icon"></span></span>
+              <input type="email" class="form-control" name="username" placeholder="Veuillez saisir votre adresse email">
+              <span class="input-group-addon"><span class="fa fa-asterisk input-icon"></span></span>
+            </div>
+            <span class="help-block"></span>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-envelope input-icon"></span></span>
+              <input type="email" class="form-control" name="username" placeholder="Veuillez confirmer votre adresse email">
+              <span class="input-group-addon"><span class="fa fa-asterisk input-icon"></span></span>
+            </div>
+            <span class="help-block"></span>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-lock input-icon"></span></span>
+              <input type="password" class="form-control" name="password" placeholder="Veuillez choisir votre mot de passe">
+              <span class="input-group-addon"><span class="fa fa-asterisk input-icon"></span></span>
+            </div>
+            <span class="help-block"></span>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-lock input-icon"></span></span>
+              <input type="password" class="form-control" name="password" placeholder="Veuillez confirmer votre mot de passe">
+              <span class="input-group-addon"><span class="fa fa-asterisk input-icon"></span></span>
+            </div>
+            <span class="help-block"></span>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-user input-icon"></span></span>
+              <input type="text" class="form-control" name="password" placeholder="Veuillez saisir votre nom">
+            </div>
+            <span class="help-block"></span>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="fa fa-user input-icon"></span></span>
+              <input type="text" class="form-control" name="password" placeholder="Veuillez saisir votre prénom">
+            </div>
+            <span class="help-block"></span>
+            <button class="btn btn-block btn-general" type="submit">Créer mon compte</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- END SUBSCRIBE -->
+
   </main>
 
   <!-- Elements HTML interactifs indépendants du flow de la structure -->

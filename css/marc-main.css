@@ -102,12 +102,29 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
+section {
+  height: 100vh;
+  padding: 50px 0 0;
+}
+
 .container-fluid {
-  padding: 0 2px;
+  padding: inherit 2px;
+}
+
+h1 , h2 {
+  line-height: 200%;
 }
 
 .row {
   margin: 0;
+}
+
+a {
+  color: #6D582A;
+}
+
+a:hover {
+  color: #97855F;
 }
 
 .btn-general {
@@ -122,16 +139,22 @@ body {
   border: 2px solid #eed39a !important;
 }
 
-main {
-  padding: 50px 0 0;
+form {
+  font-family: 'Audiowide', cursive;
 }
 
-a {
-  color: #6D582A;
+.input-icon {
+  width: 2em;
 }
 
-a:hover {
-  color: #97855F;
+.help-block {
+  color: red;
+  padding-left: 10px;
+}
+
+.checkbox {
+  margin-left: 20px;
+  font-family: 'Audiowide', cursive;
 }
 /*------ END BODY ------*/
 
@@ -170,10 +193,6 @@ nav .btn-general {
 /*------ END NAVBAR ------*/
 
 /*------ LOGIN ------*/
-h1 {
-  line-height: 200%;
-}
-
 .socialbuttons {
   font-family: 'Audiowide', cursive;
 }
@@ -201,24 +220,6 @@ h1 {
   background-color: #16203E;
   width: 2em;
   text-align: center;
-}
-
-form {
-  font-family: 'Audiowide', cursive;
-}
-
-.input-icon {
-  width: 2em;
-}
-
-.help-block {
-  color: red;
-  padding-left: 10px;
-}
-
-.checkbox {
-  margin-left: 20px;
-  font-family: 'Audiowide', cursive;
 }
 
 @media (min-width: 768px) {
