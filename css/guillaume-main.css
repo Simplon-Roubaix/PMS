@@ -19,7 +19,7 @@ html {
   font-family: 'Permanent Marker', cursive;
 }
 body {
-  padding-top: 50px;
+  /*padding-top: 50px;
   /*fixed navbar top */
   font-family: 'Permanent Marker', cursive;
 }
@@ -106,13 +106,14 @@ textarea {
      top: 0;
      text-align: center;
      font-family: 'Audiowide', cursive;
-     color: rgb(199, 19, 19) !important;
+     color: rgb(0, 0, 0) !important;
      margin: auto;
    }
 
    .navbar-inverse {
-     background-color: #16203E !important;
-     background-image: none;
+     background-color: rgba(215, 215, 215, 0.6) !important;
+     background-image: none !important;
+     border: none !important;
    }
    #navdropd {
      background-color: #16203E;
@@ -141,6 +142,20 @@ textarea {
      padding: 20px;
      font-size: 1.4em
    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+     background-color: #97855F !important;
+     background-image: none;
+   }
+   .navbar-header button {
+     background-color: #eed39a;
+   }
+.navbar-inverse .navbar-toggle .icon-bar{
+     background-color: #000000 !important;
+   }
+.navbar-header .navbar-toggle {
+  padding: 10px 10px;
+  margin-top: 5px;
+}
 
    /*HEADER CONTENT*/
 
@@ -151,9 +166,6 @@ textarea {
    }
    #home {
 
-     /*background-image: url("../img/bkg/oldcity2.png");
-     background-repeat: no-repeat;
-     background-size: cover;*/
      margin-left: 0;
      margin-right: 0;
      overflow: hidden;
@@ -247,7 +259,7 @@ textarea {
      left: 0;
    }
 
-   @media all and (max-width:599px) {
+   @media all and (max-width:400px) {
      #bgcrossf .bgimg {
        position: absolute;
        height: 100%;
@@ -324,6 +336,11 @@ textarea {
      position: relative;
      background-color: transparent !important;
    }
+   #newsdropd a:hover {
+     color: #FFFFFF !important;
+     background-color: #97855F !important ;
+   }
+
 
    /*END DROPDOWN NEWS*/
 
@@ -361,6 +378,7 @@ textarea {
    }
 
    /*END NEWS CAROUSEL*/
+   /*END CONTENT */
 
    /*Style de la police*/
    body {
@@ -423,7 +441,6 @@ textarea {
      background-size: cover;
      background-repeat: no-repeat;
      padding-top:15%;
-
    }
 
    /*bordure, position et couleur de fond du bloc partie campagne*/
@@ -482,6 +499,8 @@ textarea {
      margin-left: 15%;
      color:#333;
    }
+
+
 
 
 
