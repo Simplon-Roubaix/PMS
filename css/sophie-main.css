@@ -94,11 +94,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Style de la police*/
 body {
   font-family: 'Permanent Marker', cursive;
   font-size: 100%;
 }
 
+/*taille, image de fond et position de la section partie rapide*/
 .rapide  {
   height: 780px;
   background-image: url(../img/cyber.jpg);
@@ -125,10 +127,12 @@ margin-top: 10%;
 margin-bottom: 5%;
 }
 
+/*Hover du bouton partie rapide*/
 #partierapide:hover {
   color:white !important;
 }
 
+/* bordure, position et couleur de fond du bloc partie rapide*/
 #rapide {
   border:solid 3px #eed39a;
   margin-top: 5%;
@@ -146,6 +150,7 @@ margin-bottom: 5%;
 
 }
 
+/*bordure, position et couleur de fond du bloc partie campagne*/
 #campagne {
   border:solid 3px #eed39a;
   margin-top: 3%;
@@ -160,31 +165,38 @@ margin-bottom: 5%;
   margin-bottom: 5%;
 }
 
+/*Hover du bouton partie campagne*/
 #partiecampagne:hover {
   color: white !important;
 }
 
+/*Couleur de fond du footer*/
 footer {
   background-color: #eed39a;
 }
 
+/*Position de la FAQ*/
 #faq {
   padding-bottom: 5%;
   margin-left: 15%;
 }
 
+/*Position de la liste de la FAQ*/
 li {
   margin-left: 15%;
 }
 
+/*hover de la liste de la FAQ*/
 li:hover {
   color:white;
 }
 
+/*Position du titre réseaux sociaux*/
 #reseaux {
   padding-bottom: 5%;
 }
 
+/*Position et couleur des fafa réseaux sociaux*/
 #facebook, #twitter, #google {
   margin-left: 15%;
   color:#333;
