@@ -96,14 +96,18 @@ textarea {
    ========================================================================== */
 
 /*------ BODY ------*/
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.container-fluid {
+  padding: 0 2px;
+}
+
 .btn-general {
   background-color: #eed39a !important;
   color: #6c5a33 !important;
   border: 2px solid #eed39a !important;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  padding: 5px 0;
   font-size: 1.1em;
 }
 
@@ -111,7 +115,10 @@ textarea {
   background-color: #97855F !important;
   color: #fff !important;
   border: 2px solid #eed39a !important;
-  margin-left: 15px;
+}
+
+main {
+  padding: 50px 0 0;
 }
 /*------ END BODY ------*/
 
@@ -139,6 +146,13 @@ textarea {
 nav li a {
   padding: 5px !important;
   margin-top: 8px !important;
+}
+
+nav .btn-general {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px 0;
 }
 /*------ END NAVBAR ------*/
 
