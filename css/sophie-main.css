@@ -156,11 +156,22 @@ footer {
 
 #faq {
   padding-bottom: 5%;
+  margin-left: 15%;
+}
+
+li {
+  margin-left: 15%;
 }
 
 #reseaux {
   padding-bottom: 5%;
 }
+
+#facebook, #twitter, #google {
+  margin-left: 15%;
+}
+
+
 
 
 
