@@ -194,9 +194,14 @@ footer li {
   margin-left: 15%;
 }
 
+footer li a {
+  color:#333;
+}
+
 /*hover de la liste de la FAQ*/
-footer li:hover {
+footer li a:hover {
   color:white;
+  text-decoration: none;
 }
 
 /*Position du titre réseaux sociaux*/
