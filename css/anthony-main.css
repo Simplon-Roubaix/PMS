@@ -96,12 +96,13 @@ textarea {
    ========================================================================== */
 
 
-
    section{
        padding-top: 50px;
        /*background-color: #eed39a;*/
        background-color: white;
    }
+
+
 
        .thumbnail{
        opacity: .8;
@@ -119,6 +120,11 @@ textarea {
 
    }
 
+  i{
+      margin-right: 20px;
+  }
+
+/* Button play and note*/
    .play{
        width:140px;
    }
@@ -127,12 +133,7 @@ textarea {
     width:140px;
 }
 
-  .btn-primary,.btn-default
-  {
-    width : 150px;
-}
-
-   /* NAVBAR*/
+ /* //Button play and note// */
 
    /* NAVBAR*/
 
@@ -193,7 +194,6 @@ textarea {
   margin-top: 5px;
   }
 
-
   /* //NAVBAR // */
 
 
@@ -229,17 +229,6 @@ textarea {
   margin-left: 15%;
   color:#333;
   }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
