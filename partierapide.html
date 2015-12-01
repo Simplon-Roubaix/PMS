@@ -20,39 +20,35 @@
 
 <body>
     <header>
-      <nav class="navbar navbar-inverse navbar-fixed-top" >
-        <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
             <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-left">
+                <li>
+                  <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer <span class="caret"></span></a>
+                  <ul id="navdropd" class="dropdown-menu">
+                    <li><a href="partierapide.html" class="btn btn-general" role="button">Partie rapide</a></li>
+                    <li><a href="#" class="btn btn-general" role="button">Campagne</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html?#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
+                <li><a href="#login" id="connbtn" class="btn btn-general" role="button"><span class="fa fa-sign-in"></span> Connexion</a></li>
+              </ul>
+            </div>
           </div>
-
-          <div class="navbar-collapse  collapse" id="navbar">
-            <ul class="nav navbar-nav navbar-left">
-              <li id="btnplay">
-                <a  class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
-                <span class="caret"></span></a>
-                <ul  id="navdropd" class="dropdown-menu">
-                  <li><a href="index.html?#toprapide" class="btn btn-general" role="button">Partie rapide</a></li>
-                  <li><a href="index.html?#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
-                </ul>
-              </li>
-              <li><a href="index.html?#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
-              <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
-            </ul>
-          </div>
-          <!--/.navbar-collapse -->
-        </div>
-      </nav>
-
+        </nav>
         <!-- END NAVBAR -->
 
     </header>
@@ -69,7 +65,7 @@
                         <h3>Histoire 01</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -89,7 +85,7 @@
                         <h3>Histoire 02</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -109,7 +105,7 @@
                         <h3>Histoire 03</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -131,7 +127,7 @@
                         <h3>Histoire 04</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -151,7 +147,7 @@
                         <h3>Histoire 05</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a><a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -171,7 +167,7 @@
                         <h3>Histoire 06</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                        <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                         <p>
                             Progression :
                         </p>
@@ -194,7 +190,7 @@
                     <h3>Tutoriel</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Jouer</a> <a href="#" class="btn btn-default" role="button">Notez</a></p>
+                    <p><a href="#" class="btn btn-general play" role="button">Jouer</a> <a href="#" class="btn btn-general vote" role="button">Notez</a></p>
                     <p>
                         Progression :
                     </p>
