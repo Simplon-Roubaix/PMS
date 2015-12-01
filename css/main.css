@@ -116,8 +116,12 @@ textarea {
      border: none !important;
    }
    #navdropd {
-     background-color: #16203E;
+     background-color: rgba(215, 215, 215, 0.6) !important;
    }
+   #navdropd li .btn-general:hover{
+      background-color: #97855F !important;
+   }
+   
    nav li a {
      padding: 5px !important;
      margin-top: 8px !important;
@@ -332,19 +336,7 @@ header {
      text-shadow: #16203E 1px 1px, #16203E -1px 1px, #16203E -1px -1px, #16203E 1px -1px;
    }
 
-   /*NEWS DROPDOWN MENU VISIBLE SM*/
 
-   #newsdropd {
-     position: relative;
-     background-color: transparent !important;
-   }
-   #newsdropd a:hover {
-     color: #FFFFFF !important;
-     background-color: #97855F !important ;
-   }
-
-
-   /*END DROPDOWN NEWS*/
 
 
    /*CAROUSSEL NEWS*/
@@ -382,7 +374,7 @@ header {
    /*END NEWS CAROUSEL*/
    /*END CONTENT */
 
-#toprapide, #topcampagne {
+#toprapide, #topcampagne, #topcreation {
   height: 100vh;
 }
 
@@ -414,6 +406,9 @@ header {
      }
      .campagne {
        background-position: -200px 0;
+     }
+     .creation {
+       background-position: -200px;
      }
    }
 
@@ -473,6 +468,32 @@ header {
    #partiecampagne:hover {
      color: white !important;
    }
+
+/*taille, image de fond et position de la section partie création*/
+.creation {
+  background-image: url(../img/ecrire.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:10%;
+}
+
+#creation {
+  border:solid 3px #eed39a;
+  margin-top: 3%;
+  background-color:rgba(255,255,255,0.5);
+}
+
+#partiecreation {
+  margin: auto;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#partiecreation:hover {
+  color: white !important
+}
 
    /*Couleur de fond du footer*/
    footer {
