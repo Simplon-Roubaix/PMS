@@ -118,9 +118,10 @@ textarea {
    #navdropd {
      background-color: rgba(215, 215, 215, 0.6) !important;
    }
-   #navdropd li .btn-general:hover{
+    #navdropd > li > a:hover {
+      background-image: none;
       background-color: #97855F !important;
-   }
+    }
 
    nav li a {
      padding: 5px !important;
