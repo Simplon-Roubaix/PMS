@@ -97,8 +97,8 @@ textarea {
 
 /*------ BODY ------*/
 body {
-  background-color: #16203E;
-  color: #A89670;
+  background-color: #DDC389;
+  color: #222;
   font-family: 'Audiowide', cursive;
 }
 
@@ -115,8 +115,17 @@ section {
   background-color: transparent;
 }
 
+.breadcrumb > li + li:before {
+  color: #AAA;
+}
+
+.breadcrumb > .active {
+  color: #666;
+}
+
 h1 , h2 {
   line-height: 200%;
+  text-shadow: 0 -1px 1px rgba(215, 215, 215, .80);
 }
 
 .row {
@@ -124,43 +133,47 @@ h1 , h2 {
 }
 
 a {
-  color: #6D582A;
+  color: #31508D;
 }
 
 a:hover {
-  color: #97855F;
+  color: #7A94C2;
 }
 
 .btn-general {
-  background-color: #EED39A !important;
-  color: #6C5A33 !important;
-  border: 1px solid #EED39A !important;
+  background-color: #FFE4AB !important;
+  color: #5B4922 !important;
+  border: 1px solid #97855F !important;
   font-size: 1.1em;
-  text-shadow: 0 1px 0 #FFF;
-  background-image: -webkit-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
-  background-image:      -o-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EED39A), to(#DFC48B));
-  background-image:         linear-gradient(to bottom, #EED39A 0%, #DFC48B 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEED39A', endColorstr='#FFDFC48B', GradientType=0);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, .90);
+  background-image: -webkit-linear-gradient(top, #FFE4AB 0%, #DFC48B 100%);
+  background-image:      -o-linear-gradient(top, #FFE4AB 0%, #DFC48B 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE4AB), to(#DFC48B));
+  background-image:         linear-gradient(to bottom, #FFE4AB 0%, #DFC48B 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFE4AB', endColorstr='#FFDFC48B', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
 
 .btn-general:hover {
-  background-color: #97855F !important;
+  background-color: #A89670 !important;
   color: #EEE !important;
-  text-shadow: 0 1px 0 #000;
-  background-image: -webkit-linear-gradient(top, #97855F 0%, #88764F 100%);
-  background-image:      -o-linear-gradient(top, #97855F 0%, #88764F 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#887650), to(#88764F));
-  background-image:         linear-gradient(to bottom, #97855F 0%, #88764F 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF97855F', endColorstr='#FF88764F', GradientType=0);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .90);
+  background-image: -webkit-linear-gradient(top, #A89670 0%, #88764F 100%);
+  background-image:      -o-linear-gradient(top, #A89670 0%, #88764F 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A89670), to(#88764F));
+  background-image:         linear-gradient(to bottom, #A89670 0%, #88764F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA89670', endColorstr='#FF88764F', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
 
 .form-control {
   font-size: .6em;
+}
+
+label {
+  font-weight: normal;
 }
 
 .input-icon {
@@ -200,8 +213,16 @@ a:hover {
   border: none !important;
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
-    text-shadow: 0 -1px 0 rgba(235, 235, 235, .40);
+.navbar-inverse .navbar-brand {
+  text-shadow: 0 -1px 1px rgba(235, 235, 235, .80);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 1px 1px rgba(235, 235, 235, .80);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  text-shadow: 0 1px 1px rgba(20, 20, 20, .80);
 }
 
 #navdropd {
@@ -230,12 +251,8 @@ nav .btn-general {
  background-image: none;
 }
 
-.navbar-header button {
- background-color: #eed39a;
-}
-
 .navbar-inverse .navbar-toggle .icon-bar{
- background-color: #000000 !important;
+ background-color: #000 !important;
 }
 
 .navbar-header .navbar-toggle {
@@ -253,7 +270,7 @@ margin-top: 5px;
 }
 
 .hrOr {
-  background-color: #16203E;
+  background-color: #EEE;
   height: 1px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -265,7 +282,7 @@ margin-top: 5px;
   left: 50%;
   top: -0.6em;
   margin-left: -1.5em;
-  background-color: #16203E;
+  background-color: #DDC389;
   width: 2em;
   text-align: center;
 }
