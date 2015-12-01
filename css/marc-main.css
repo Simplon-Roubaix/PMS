@@ -97,9 +97,9 @@ textarea {
 
 /*------ BODY ------*/
 body {
-  background-color: #16203E;
-  color: #A89670;
-  font-family: 'Permanent Marker', cursive;
+  background-color: #DDC389;
+  color: #222;
+  font-family: 'Audiowide', cursive;
 }
 
 section {
@@ -113,11 +113,19 @@ section {
 
 .breadcrumb {
   background-color: transparent;
-  font-family: 'Audiowide', cursive;
+}
+
+.breadcrumb > li + li:before {
+  color: #AAA;
+}
+
+.breadcrumb > .active {
+  color: #666;
 }
 
 h1 , h2 {
   line-height: 200%;
+  text-shadow: 0 -1px 1px rgba(215, 215, 215, .80);
 }
 
 .row {
@@ -125,47 +133,47 @@ h1 , h2 {
 }
 
 a {
-  color: #6D582A;
+  color: #31508D;
 }
 
 a:hover {
-  color: #97855F;
+  color: #7A94C2;
 }
 
 .btn-general {
-  background-color: #EED39A !important;
-  color: #6C5A33 !important;
-  border: 1px solid #EED39A !important;
-  text-shadow: 0 1px 0 #FFF;
-  background-image: -webkit-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
-  background-image:      -o-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EED39A), to(#DFC48B));
-  background-image:         linear-gradient(to bottom, #EED39A 0%, #DFC48B 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEED39A', endColorstr='#FFDFC48B', GradientType=0);
+  background-color: #FFE4AB !important;
+  color: #5B4922 !important;
+  border: 1px solid #97855F !important;
+  font-size: 1.1em;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, .90);
+  background-image: -webkit-linear-gradient(top, #FFE4AB 0%, #DFC48B 100%);
+  background-image:      -o-linear-gradient(top, #FFE4AB 0%, #DFC48B 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFE4AB), to(#DFC48B));
+  background-image:         linear-gradient(to bottom, #FFE4AB 0%, #DFC48B 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFE4AB', endColorstr='#FFDFC48B', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #FDE2A9;
-  border-color: #EED39A;
 }
 
 .btn-general:hover {
-  background-color: #97855F !important;
+  background-color: #A89670 !important;
   color: #EEE !important;
-  border: 1px solid #EED39A !important;
-  text-shadow: 0 1px 0 #000;
-  background-image: -webkit-linear-gradient(top, #97855F 0%, #88764F 100%);
-  background-image:      -o-linear-gradient(top, #97855F 0%, #88764F 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#887650), to(#88764F));
-  background-image:         linear-gradient(to bottom, #97855F 0%, #88764F 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF97855F', endColorstr='#FF88764F', GradientType=0);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .90);
+  background-image: -webkit-linear-gradient(top, #A89670 0%, #88764F 100%);
+  background-image:      -o-linear-gradient(top, #A89670 0%, #88764F 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A89670), to(#88764F));
+  background-image:         linear-gradient(to bottom, #A89670 0%, #88764F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA89670', endColorstr='#FF88764F', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #A6946E;
-  border-color: #EED39A;
 }
 
-form {
-  font-family: 'Audiowide', cursive;
+.form-control {
+  font-size: .6em;
+}
+
+label {
+  font-weight: normal;
 }
 
 .input-icon {
@@ -179,7 +187,12 @@ form {
 
 .checkbox {
   margin-left: 20px;
-  font-family: 'Audiowide', cursive;
+}
+
+@media (min-width: 768px) {
+  .form-control {
+    font-size: .8em;
+  }
 }
 /*------ END BODY ------*/
 
@@ -190,18 +203,35 @@ form {
   left: 0;
   top: 0;
   text-align: center;
-  font-family: 'Audiowide', cursive;
-  color: rgb(199, 19, 19) !important;
+  color: rgb(0, 0, 0) !important;
   margin: auto;
 }
 
 .navbar-inverse {
-  background-color: #16203E !important;
-  background-image: none;
+  background-color: rgba(215, 215, 215, 0.6) !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-brand {
+  text-shadow: 0 -1px 1px rgba(235, 235, 235, .80);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 1px 1px rgba(235, 235, 235, .80);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  text-shadow: 0 1px 1px rgba(20, 20, 20, .80);
 }
 
 #navdropd {
-  background-color: #16203E;
+  background-color: rgba(215, 215, 215, 0.6) !important;
+}
+
+#navdropd > li > a:hover {
+  background-image: none;
+  background-color: #97855F !important;
 }
 
 nav li a {
@@ -215,13 +245,23 @@ nav .btn-general {
   margin-top: 10px;
   padding: 5px 0;
 }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+ background-color: #97855F !important;
+ background-image: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+ background-color: #000 !important;
+}
+
+.navbar-header .navbar-toggle {
+padding: 10px 10px;
+margin-top: 5px;
+}
 /*------ END NAVBAR ------*/
 
 /*------ LOGIN ------*/
-.socialbuttons {
-  font-family: 'Audiowide', cursive;
-}
-
 .loginOr {
   position: relative;
   font-size: 1.5em;
@@ -230,7 +270,7 @@ nav .btn-general {
 }
 
 .hrOr {
-  background-color: #16203E;
+  background-color: #EEE;
   height: 1px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -242,7 +282,7 @@ nav .btn-general {
   left: 50%;
   top: -0.6em;
   margin-left: -1.5em;
-  background-color: #16203E;
+  background-color: #DDC389;
   width: 2em;
   text-align: center;
 }
