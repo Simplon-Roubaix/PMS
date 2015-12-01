@@ -140,6 +140,10 @@ a:hover {
   color: #7A94C2;
 }
 
+.btn {
+  padding: 6px;
+}
+
 .btn-general {
   background-color: #FFE4AB !important;
   color: #5B4922 !important;
