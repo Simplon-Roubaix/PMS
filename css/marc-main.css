@@ -99,7 +99,7 @@ textarea {
 body {
   background-color: #16203E;
   color: #A89670;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Audiowide', cursive;
 }
 
 section {
@@ -113,7 +113,6 @@ section {
 
 .breadcrumb {
   background-color: transparent;
-  font-family: 'Audiowide', cursive;
 }
 
 h1 , h2 {
@@ -164,8 +163,8 @@ a:hover {
   border-color: #EED39A;
 }
 
-form {
-  font-family: 'Audiowide', cursive;
+.form-control {
+  font-size: .6em;
 }
 
 .input-icon {
@@ -179,7 +178,12 @@ form {
 
 .checkbox {
   margin-left: 20px;
-  font-family: 'Audiowide', cursive;
+}
+
+@media (min-width: 768px) {
+  .form-control {
+    font-size: .8em;
+  }
 }
 /*------ END BODY ------*/
 
@@ -190,7 +194,6 @@ form {
   left: 0;
   top: 0;
   text-align: center;
-  font-family: 'Audiowide', cursive;
   color: rgb(199, 19, 19) !important;
   margin: auto;
 }
@@ -218,10 +221,6 @@ nav .btn-general {
 /*------ END NAVBAR ------*/
 
 /*------ LOGIN ------*/
-.socialbuttons {
-  font-family: 'Audiowide', cursive;
-}
-
 .loginOr {
   position: relative;
   font-size: 1.5em;
