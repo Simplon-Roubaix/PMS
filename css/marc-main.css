@@ -135,6 +135,7 @@ a:hover {
   background-color: #EED39A !important;
   color: #6C5A33 !important;
   border: 1px solid #EED39A !important;
+  font-size: 1.1em;
   text-shadow: 0 1px 0 #FFF;
   background-image: -webkit-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
   background-image:      -o-linear-gradient(top, #EED39A 0%, #DFC48B 100%);
@@ -143,14 +144,11 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEED39A', endColorstr='#FFDFC48B', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #FDE2A9;
-  border-color: #EED39A;
 }
 
 .btn-general:hover {
   background-color: #97855F !important;
   color: #EEE !important;
-  border: 1px solid #EED39A !important;
   text-shadow: 0 1px 0 #000;
   background-image: -webkit-linear-gradient(top, #97855F 0%, #88764F 100%);
   background-image:      -o-linear-gradient(top, #97855F 0%, #88764F 100%);
@@ -159,8 +157,6 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF97855F', endColorstr='#FF88764F', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #A6946E;
-  border-color: #EED39A;
 }
 
 .form-control {
@@ -194,17 +190,27 @@ a:hover {
   left: 0;
   top: 0;
   text-align: center;
-  color: rgb(199, 19, 19) !important;
+  color: rgb(0, 0, 0) !important;
   margin: auto;
 }
 
 .navbar-inverse {
-  background-color: #16203E !important;
-  background-image: none;
+  background-color: rgba(215, 215, 215, 0.6) !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: 0 -1px 0 rgba(235, 235, 235, .40);
 }
 
 #navdropd {
-  background-color: #16203E;
+  background-color: rgba(215, 215, 215, 0.6) !important;
+}
+
+#navdropd > li > a:hover {
+  background-image: none;
+  background-color: #97855F !important;
 }
 
 nav li a {
@@ -217,6 +223,24 @@ nav .btn-general {
   margin-right: 10px;
   margin-top: 10px;
   padding: 5px 0;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+ background-color: #97855F !important;
+ background-image: none;
+}
+
+.navbar-header button {
+ background-color: #eed39a;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+ background-color: #000000 !important;
+}
+
+.navbar-header .navbar-toggle {
+padding: 10px 10px;
+margin-top: 5px;
 }
 /*------ END NAVBAR ------*/
 
