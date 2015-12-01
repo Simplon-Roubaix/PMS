@@ -106,12 +106,22 @@ body {
 
 .breadcrumb a {
     color:#212328;
+    font-family: 'Audiowide', cursive;
+}
+
+.breadcrumb {
+    font-family: 'Audiowide', cursive;
 }
 
 h2 {
+    font-family: 'Audiowide', cursive;
     color:#212328;
     text-align: center;
     font-size: 2.5em;
+}
+
+.uppercase {
+    text-transform:uppercase;
 }
 
 p {
@@ -121,6 +131,7 @@ p {
 }
 
 h3 {
+    font-family: 'Audiowide', cursive;
     color:#212328;
     text-align: center;
     font-size: 2em;
@@ -274,6 +285,7 @@ background-image: none;
     background-color:#212328;
     color:#d2ba92;
     background-image: none;
+    font-family: 'Audiowide', cursive;
 }
 
 .btn:hover {
@@ -343,12 +355,18 @@ background-image: none;
     color:#212328;
 }
 
+.font {
+    font-family: 'Audiowide', cursive;
+}
+
+
 /* =========================FAQ============================ */
 
 
 .panel-group {
     /*border: solid 2px #212328;*/
     background-color: #d2ba92;
+    font-family: 'Audiowide', cursive;
 }
 
 .faq {
@@ -387,20 +405,37 @@ background-image: none;
     color: #454444;
 }
 
+/* =========================FOOTER============================ */
+
+#top-bottom {
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+}
+
+ #top-bottom a {
+     color:#212328;
+ }
+
 /* =========================MEDIA QUERIES============================ */
 
 /*/////////////////////////////screen until 767px////////////////////////*/
 @media screen and (max-width: 767px) {
-    h1 {
+    h2 {
         font-size: 2.4em;
+        /*word-wrap:break-word;*/
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -o-hyphens: auto;
+        hyphens: auto;
     }
 
     p {
         font-size: 1.2em;
     }
 
-    h2, h3 {
-        font-family: 'Fredericka the Great', cursive;
+     h3 {
         color:#16203E;
         text-align: center;
         font-weight: bold;
@@ -411,7 +446,7 @@ background-image: none;
 
 /*/////////////////////////////screen between 768px-1023px////////////////////////*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    h1 {
+    h2 {
         font-size: 3.5em;
     }
 
@@ -422,8 +457,7 @@ background-image: none;
         color:white;
     }
 
-    h2, h3 {
-        font-family: 'Fredericka the Great', cursive;
+    h3 {
         color:#16203E;
         text-align: center;
         font-weight: bold;
