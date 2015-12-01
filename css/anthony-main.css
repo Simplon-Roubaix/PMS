@@ -98,14 +98,15 @@ textarea {
 
    section{
        padding-top: 50px;
-       background-color: #eed39a;
-      /* background-color: white;*/
+      /* background-color: #eed39a; CSS */
+      background-color: #E1EBF5;
    }
 
        .thumbnail{
        opacity: .8;
        /*background-color: #eed39a;*/
-       background-color: white;
+      /* background-color: white; CSS */
+       background-color: #E1EBF5;
        border: 20px solid transparent;
        -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
        -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
@@ -151,6 +152,7 @@ textarea {
      background-image: none !important;
      border: none !important;
    }
+
    #navdropd {
      background-color: #16203E;
    }
