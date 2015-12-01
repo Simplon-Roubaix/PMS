@@ -345,8 +345,8 @@ textarea {
    /*CAROUSSEL NEWS*/
 
    #newscarousel {
-     margin-top: 30px;
-     margin-bottom: 50px;
+     margin-top: 10px;
+     margin-bottom: 30px;
    }
    #newscarousel .item {
      background-color: rgba(255, 255, 255, 0.85);
