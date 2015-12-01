@@ -130,12 +130,6 @@ p {
     color:#212328;
 }
 
-h3 {
-    font-family: 'Audiowide', cursive;
-    color:#212328;
-    text-align: center;
-    font-size: 2em;
-}
 
 /* =========================qui sommes-nous=========================== */
 
@@ -422,7 +416,7 @@ background-image: none;
 /*/////////////////////////////screen until 767px////////////////////////*/
 @media screen and (max-width: 767px) {
     h2 {
-        font-size: 2.4em;
+        font-size: 2.1em;
         /*word-wrap:break-word;*/
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
@@ -433,13 +427,6 @@ background-image: none;
 
     p {
         font-size: 1.2em;
-    }
-
-     h3 {
-        color:#16203E;
-        text-align: center;
-        font-weight: bold;
-        font-size: 1em;
     }
 
 }
@@ -455,13 +442,6 @@ background-image: none;
         text-align: center;
         font-size: 1.5em;
         color:white;
-    }
-
-    h3 {
-        color:#16203E;
-        text-align: center;
-        font-weight: bold;
-        font-size: 2em;
     }
 
     .btn {
