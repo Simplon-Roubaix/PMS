@@ -166,14 +166,13 @@ textarea {
    /*HEADER CONTENT*/
 
    /*-------HEADER-----------*/
-header {
-  height:100vh;
-}
+
    .container-fluid {
      padding: 0;
    }
    #home {
-
+       height: 100vh;
+     margin-top: 50px;
      margin-left: 0;
      margin-right: 0;
      overflow: hidden;
@@ -255,7 +254,7 @@ header {
    }
    #bgcrossf {
      position: relative;
-     height: 100%;
+         height: 100vh;
      width: 100%;
      margin: 0 auto;
      overflow: hidden;
@@ -275,6 +274,7 @@ header {
        left:-45%;
        }
    }
+
    @media all and (min-width:1300px) {
      #bgcrossf .bgimg {
        position: absolute;
@@ -328,9 +328,10 @@ header {
      overflow-y: hidden;
    }
    #logo-PMS img {
-     margin-top: 20px;
+     margin-top: 10px;
      background-color: rgba(220, 220, 220, 0.7);
      border-radius: 20px;
+     padding: 0 10px;
    }
    #slogan h1 {
      font-size: 3em;
