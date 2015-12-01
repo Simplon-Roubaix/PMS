@@ -121,7 +121,7 @@ textarea {
    #navdropd li .btn-general:hover{
       background-color: #97855F !important;
    }
-   
+
    nav li a {
      padding: 5px !important;
      margin-top: 8px !important;
@@ -135,6 +135,7 @@ textarea {
      margin-top: 10px;
      padding: 5px 0;
      font-size: 1.1em;
+     font-family: 'Audiowide', cursive;
    }
    .btn-general:hover {
      background-color: #97855F !important;
@@ -417,6 +418,7 @@ header {
      background-color: #eed39a !important;
      color: #97855F !important;
      border: 2px solid #eed39a !important;
+      font-family: 'Audiowide', cursive;
    }
 
    /*Position du bouton*/
@@ -498,6 +500,7 @@ header {
    /*Couleur de fond du footer*/
    footer {
      background-color: #eed39a;
+      font-family: 'Audiowide', cursive;
    }
 
    /*Position de la FAQ*/
