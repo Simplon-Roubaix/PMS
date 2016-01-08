@@ -139,6 +139,8 @@ textarea {
 
    /* NAVBAR*/
 
+   /* NAVBAR*/
+
    .navbar-brand {
      position: absolute;
      width: 100%;
@@ -156,45 +158,53 @@ textarea {
      border: none !important;
    }
    #navdropd {
-     background-color: #16203E;
+     background-color: rgba(215, 215, 215, 0.6) !important;
    }
+    #navdropd > li > a:hover {
+      background-image: none;
+      background-color: #9d9d9d !important;
+    }
+
    nav li a {
      padding: 5px !important;
      margin-top: 8px !important;
    }
    .btn-general {
-     background-color: #eed39a !important;
-     color: #6c5a33 !important;
-     border: 2px solid #eed39a !important;
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
      margin-left: 10px;
      margin-right: 10px;
      margin-top: 10px;
      padding: 5px 0;
      font-size: 1.1em;
+     font-family: 'Audiowide', cursive;
    }
    .btn-general:hover {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      color: #fff !important;
-     border: 2px solid #eed39a !important;
+     border: 2px solid #eceff1 !important;
+     margin-left: 15px;
    }
    .btn-extensed {
      padding: 20px;
      font-size: 1.4em
    }
+
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      background-image: none;
    }
    .navbar-header button {
-     background-color: #eed39a;
+     background-color: #283593;
    }
-  .navbar-inverse .navbar-toggle .icon-bar{
+   .navbar-inverse .navbar-toggle .icon-bar{
      background-color: #000000 !important;
    }
-  .navbar-header .navbar-toggle {
-  padding: 10px 10px;
-  margin-top: 5px;
-  }
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
 
   /* //NAVBAR // */
 
