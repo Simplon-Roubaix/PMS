@@ -442,6 +442,7 @@ textarea {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+    transition:
 }
 img.btn_close {
 	float: right;
