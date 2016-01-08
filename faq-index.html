@@ -36,14 +36,48 @@
 
     <!-- Structure HTML du site web -->
 
-    <div class="container-fluid">
-        <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="index.html">HOME</a></li>
-            <li>FAQ</li>
-        </ol>
+
+            <!-- NAVIGATION -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container">
+                <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <div class="navbar-collapse  collapse" id="navbar">
+                  <ul class="nav navbar-nav navbar-left">
+                    <li id="btnplay">
+                      <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
+                       <span class="caret"></span></a>
+                      <ul id="navdropd" class="dropdown-menu">
+                        <li><a href="#toprapide" class="btn btn-general" role="button">Partie rapide</a></li>
+                        <li><a href="#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
+                        <li><a href="#topcreation" class="btn btn-general" role="button">Creation</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
+                    <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
+                  </ul>
+                </div>
+                <!--/.navbar-collapse -->
+              </div>
+            </nav>
+            <!-- END NAVBAR -->
+
+
         <!-- /////////////////////////////////QUI SOMMES-NOUS//////////////////////////////////// -->
 
+        <div class="container-fluid">
+            <div class="container">
         <div class="quisommesnous row col-lg-5" id="who">
             <h2 class="text-center wowload fadeInUp">QUI SOMMES-NOUS ?</h2>
 
@@ -136,7 +170,7 @@
 
                                     <div class="form-group">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" class="btn btn-lg">Envoyer</button>
+                                            <button type="submit" class="faqbtn btn-lg">Envoyer</button>
                                         </div>
                                     </div>
                                 </fieldset>
