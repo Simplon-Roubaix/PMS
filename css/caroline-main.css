@@ -164,6 +164,18 @@ transition: all .5s ease;
     background-repeat: no-repeat;
 }
 
+.Jade {
+transition: all .5s ease;
+}
+
+.Jade img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
+}
+
 .Anthony {
 transition: all .5s ease;
 }
@@ -207,6 +219,11 @@ transition: all .5s ease;
 }
 
 .Caroline:hover {
+    height: 185px;
+    width: 185px;
+}
+
+.Jade:hover {
     height: 185px;
     width: 185px;
 }
