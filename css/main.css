@@ -120,7 +120,7 @@ textarea {
    }
     #navdropd > li > a:hover {
       background-image: none;
-      background-color: #97855F !important;
+      background-color: #9d9d9d !important;
     }
 
    nav li a {
@@ -128,9 +128,9 @@ textarea {
      margin-top: 8px !important;
    }
    .btn-general {
-     background-color: #eed39a !important;
-     color: #6c5a33 !important;
-     border: 2px solid #eed39a !important;
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
      margin-left: 10px;
      margin-right: 10px;
      margin-top: 10px;
@@ -139,29 +139,30 @@ textarea {
      font-family: 'Audiowide', cursive;
    }
    .btn-general:hover {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      color: #fff !important;
-     border: 2px solid #eed39a !important;
+     border: 2px solid #eceff1 !important;
      margin-left: 15px;
    }
    .btn-extensed {
      padding: 20px;
      font-size: 1.4em
    }
+
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      background-image: none;
    }
    .navbar-header button {
-     background-color: #eed39a;
+     background-color: #283593;
    }
-.navbar-inverse .navbar-toggle .icon-bar{
+   .navbar-inverse .navbar-toggle .icon-bar{
      background-color: #000000 !important;
    }
-.navbar-header .navbar-toggle {
-  padding: 10px 10px;
-  margin-top: 5px;
-}
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
 
    /*HEADER CONTENT*/
 
@@ -335,8 +336,8 @@ textarea {
    }
    #slogan h1 {
      font-size: 3em;
-     color:#eed39a;
-     text-shadow: #16203E 1px 1px, #16203E -1px 1px, #16203E -1px -1px, #16203E 1px -1px;
+     color:rgba(255,255,255,0.5) !important;
+     text-shadow: #283593 1px 1px, #283593 -1px 1px, #283593 -1px -1px, #283593 1px -1px;
    }
 
 
@@ -349,13 +350,13 @@ textarea {
      margin-bottom: 30px;
    }
    #newscarousel .item {
-     background-color: rgba(255, 255, 255, 0.85);
+     background-color: rgba(255, 255, 255, 0.5);
      border-radius: 20px;
      margin: 10px 10%;
      padding: 10px 10% 20px 10%;
    }
    .carousel-inner {
-     color: rgb(56, 56, 56);
+     color: #212328;
    }
    .carousel-inner h3 {
      font-family: 'Audiowide', cursive;
@@ -368,10 +369,10 @@ textarea {
      bottom: 0;
    }
    .carousel-indicators li {
-     border: 1px solid #97855F;
+     border: 1px solid #283593;
    }
    .carousel-indicators .active {
-     background-color: #97855F;
+     background-color: #283593;
    }
 
    /*END NEWS CAROUSEL*/
@@ -388,7 +389,7 @@ textarea {
 }
 
    body {
-     font-family: 'Permanent Marker', cursive;
+     font-family: 'Audiowide', cursive;
      font-size: 100%;
    }
 
@@ -417,9 +418,9 @@ textarea {
 
    /*Couleur des boutons*/
    .btnperso {
-     background-color: #eed39a !important;
-     color: #97855F !important;
-     border: 2px solid #eed39a !important;
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
       font-family: 'Audiowide', cursive;
    }
 
@@ -434,11 +435,13 @@ textarea {
    /*Hover du bouton partie rapide*/
    #partierapide:hover {
      color:white !important;
+     background-color:#9d9d9d !important;
+     border: 2px solid white !important;
    }
 
    /* bordure, position et couleur de fond du bloc partie rapide*/
    #rapide {
-     border:solid 3px #eed39a;
+     border:solid 3px #283593;
      margin-top: 5%;
      background-color:rgba(255,255,255,0.5);
 
@@ -455,7 +458,7 @@ textarea {
 
    /*bordure, position et couleur de fond du bloc partie campagne*/
    #campagne {
-     border:solid 3px #eed39a;
+     border:solid 3px #283593;
      margin-top: 3%;
      background-color:rgba(255,255,255,0.5);
    }
@@ -471,6 +474,8 @@ textarea {
    /*Hover du bouton partie campagne*/
    #partiecampagne:hover {
      color: white !important;
+     background-color:#9d9d9d !important;
+     border: 2px solid white !important;
    }
 
 /*taille, image de fond et position de la section partie création*/
@@ -483,7 +488,7 @@ textarea {
 }
 
 #creation {
-  border:solid 3px #eed39a;
+  border:solid 3px #283593;
   margin-top: 3%;
   background-color:rgba(255,255,255,0.5);
 }
@@ -496,12 +501,14 @@ textarea {
 }
 
 #partiecreation:hover {
-  color: white !important
+  color: white !important;
+  background-color:#9d9d9d !important;
+  border: 2px solid white !important;
 }
 
    /*Couleur de fond du footer*/
    footer {
-     background-color: #eed39a;
+     background-color: rgba(255,255,255,0.5);
       font-family: 'Audiowide', cursive;
    }
 
@@ -517,12 +524,12 @@ textarea {
    }
 
    footer li a {
-     color:#333;
+     color:#212328;
    }
 
    /*hover de la liste de la FAQ*/
    footer li a:hover {
-     color:white;
+     color:#283593 !important;
      text-decoration: none;
    }
 
@@ -534,7 +541,19 @@ textarea {
    /*Position et couleur des fafa réseaux sociaux*/
    #facebook, #twitter, #google {
      margin-left: 15%;
-     color:#333;
+     color:#212328;
+   }
+
+   #facebook:hover{
+     color:#283593 !important;
+   }
+
+   #twitter:hover{
+     color:#283593 !important;
+   }
+
+     #google:hover{
+     color:#283593 !important;
    }
 
 
