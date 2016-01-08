@@ -66,9 +66,7 @@
 
 
         <div id="popup_name" class="popup_block">
-        	<h2>Choix des dialogues :</h2>
-        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <img src="img/avatars-team/anthony.png" id="tutopics" />
+            <img src="img/anthony_bulle.png" id="tutopics" />
         </div>
 
 
@@ -125,11 +123,13 @@
     	var dim= query[1].split('&amp;');
     	var popWidth = dim[0].split('=')[1]; //La première valeur du lien
 
+        var text = $('<p id="bulle">loremvneoibvinhvsn isb</p>');
+
     	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
     	$('#' + popID).fadeIn().css({
     		'width': Number(popWidth)
     	})
-    	.prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_close" title="Fermer" alt="Fermer" /></a>');
+    	// $("#tutopics").contents(); a terminer !
 
     	//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
     	var popMargTop = ($('#' + popID).height() + 80) / 2;
