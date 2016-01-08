@@ -109,9 +109,6 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
 
-
-
-
     <script>
     //Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #
     $('a.poplight[href^=#]').click(function() {
@@ -123,13 +120,13 @@
     	var dim= query[1].split('&amp;');
     	var popWidth = dim[0].split('=')[1]; //La première valeur du lien
 
-        var text = $('<p id="bulle">loremvneoibvinhvsn isb</p>');
+        var text = ("<p id='bulle'>lorem lorem lorem lorem lorem, lorem lorem lorem lorem lorem lorem lorem lorem lorem, lorem lorem lorem lorem lorem lorem</p>")
 
     	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
     	$('#' + popID).fadeIn().css({
     		'width': Number(popWidth)
     	})
-    	// $("#tutopics").contents(); a terminer !
+    	$("#popup_name").append(text);
 
     	//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
     	var popMargTop = ($('#' + popID).height() + 80) / 2;
