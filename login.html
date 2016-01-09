@@ -36,10 +36,10 @@
 
   <!-- Structure HTML du site web -->
 
-  <!-- NAVBAR -->
+  <!-- NAVIGATION -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-      <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
+      <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -48,22 +48,26 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="navbar-collapse collapse" id="navbar">
+
+      <div class="navbar-collapse  collapse" id="navbar">
         <ul class="nav navbar-nav navbar-left">
-          <li>
-            <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer <span class="caret"></span></a>
+          <li id="btnplay">
+            <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
+             <span class="caret"></span></a>
             <ul id="navdropd" class="dropdown-menu">
-              <li><a href="partierapide.html" class="btn btn-general" role="button">Partie rapide</a></li>
-              <li><a href="#" class="btn btn-general" role="button">Campagne</a></li>
+              <li><a href="#toprapide" class="btn btn-general" role="button">Partie rapide</a></li>
+              <li><a href="#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
+              <li><a href="#topcreation" class="btn btn-general" role="button">Création</a></li>
             </ul>
           </li>
-          <li><a href="index.html?#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+          <li><a href="faq-index.html" id="aboutbtn" class="btn btn-general" role="button">À propos</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
-          <li><a href="#login" id="connbtn" class="btn btn-general" role="button"><span class="fa fa-sign-in"></span> Connexion</a></li>
+          <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
+          <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
         </ul>
       </div>
+      <!--/.navbar-collapse -->
     </div>
   </nav>
   <!-- END NAVBAR -->
@@ -113,7 +117,7 @@
               <input type="password" class="form-control" name="password" placeholder="mot de passe">
             </div>
             <span class="help-block"></span>
-            <button class="btn btn-block btn-general" type="submit">Me connecter</button>
+            <button class="btn btn-block btn-general btnc" type="submit">Me connecter</button>
           </form>
         </div>
       </div>
@@ -177,7 +181,7 @@
               <input type="text" class="form-control" name="password" placeholder="Saisir votre prénom">
             </div>
             <span class="help-block"></span>
-            <button class="btn btn-block btn-general" type="submit">Créer mon compte</button>
+            <button class="btn btn-block btn-general btnc" type="submit">Créer mon compte</button>
           </form>
         </div>
       </div>

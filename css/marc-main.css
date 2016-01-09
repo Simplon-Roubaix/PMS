@@ -95,11 +95,87 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* NAVBAR*/
+
+   .navbar-brand {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     text-align: center;
+     font-family: 'Audiowide', cursive;
+     color: rgb(0, 0, 0) !important;
+     margin: auto;
+   }
+
+   .navbar-inverse {
+     background-color: rgba(215, 215, 215, 0.6) !important;
+     background-image: none !important;
+     border: none !important;
+   }
+   #navdropd {
+     background-color: rgba(215, 215, 215, 0.6) !important;
+   }
+    #navdropd > li > a:hover {
+      background-image: none;
+      background-color: #9d9d9d !important;
+    }
+
+   nav li a {
+     padding: 5px !important;
+     margin-top: 8px !important;
+   }
+   .btn-general {
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     padding: 5px 0;
+     font-size: 1.1em;
+     font-family: 'Audiowide', cursive;
+   }
+   .btn-general:hover {
+     background-color: #9d9d9d !important;
+     color: #fff !important;
+     border: 2px solid #eceff1 !important;
+     margin-left: 15px;
+   }
+   .btn-extensed {
+     padding: 20px;
+     font-size: 1.4em
+   }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+     background-color: #9d9d9d !important;
+     background-image: none;
+   }
+   .navbar-header button {
+     background-color: #283593;
+   }
+   .navbar-inverse .navbar-toggle .icon-bar{
+     background-color: #000000 !important;
+   }
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
+
+
 /*------ BODY ------*/
 body {
-  background-color: #DDC389;
-  color: #222;
+  background-color: rgba(255,255,255,0.5);
+  color: #212328;
   font-family: 'Audiowide', cursive;
+}
+
+.btnc{
+    background-color:#E3001B !important;
+}
+
+.input-group-addon {
+    color:#283593 !important;
 }
 
 section {
@@ -133,14 +209,14 @@ h1 , h2 {
 }
 
 a {
-  color: #31508D;
+  color: #212328;
 }
 
 a:hover {
-  color: #7A94C2;
+  color: #283593;
 }
 
-.btn-general {
+/*.btn-general {
   background-color: #FFE4AB !important;
   color: #5B4922 !important;
   border: 1px solid #97855F !important;
@@ -153,9 +229,9 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFE4AB', endColorstr='#FFDFC48B', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-}
+}*/
 
-.btn-general:hover {
+/*.btn-general:hover {
   background-color: #A89670 !important;
   color: #EEE !important;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .90);
@@ -166,7 +242,7 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA89670', endColorstr='#FF88764F', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-}
+}*/
 
 .form-control {
   font-size: .6em;
@@ -178,7 +254,7 @@ label {
 
 .input-icon {
   width: 2em;
-}
+ }
 
 .help-block {
   color: red;
@@ -282,10 +358,11 @@ margin-top: 5px;
   left: 50%;
   top: -0.6em;
   margin-left: -1.5em;
-  background-color: #DDC389;
+  background-color: #eceff1;
   width: 2em;
   text-align: center;
 }
+
 
 @media (min-width: 768px) {
   .forgotPwd {
