@@ -11,6 +11,9 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -20,34 +23,38 @@
 
 <body>
     <header>
+        <!-- NAVIGATION -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
-            <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
+            <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
             </div>
-            <div class="navbar-collapse collapse" id="navbar">
+
+            <div class="navbar-collapse  collapse" id="navbar">
               <ul class="nav navbar-nav navbar-left">
-                <li>
-                  <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer <span class="caret"></span></a>
+                <li id="btnplay">
+                  <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
+                   <span class="caret"></span></a>
                   <ul id="navdropd" class="dropdown-menu">
-                    <li><a href="partierapide.html" class="btn btn-general" role="button">Partie rapide</a></li>
-                    <li><a href="#" class="btn btn-general" role="button">Campagne</a></li>
-                    <li><a href="index.html?#topcreation" class="btn btn-general" role="button">Creation</a></li>
+                    <li><a href="#toprapide" class="btn btn-general" role="button">Partie rapide</a></li>
+                    <li><a href="#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
+                    <li><a href="#topcreation" class="btn btn-general" role="button">Creation</a></li>
                   </ul>
                 </li>
-                <li><a href="index.html?#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+                <li><a href="#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
-                <li><a href="#login" id="connbtn" class="btn btn-general" role="button"><span class="fa fa-sign-in"></span> Connexion</a></li>
+                <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
+                <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
               </ul>
             </div>
+            <!--/.navbar-collapse -->
           </div>
         </nav>
         <!-- END NAVBAR -->
@@ -204,27 +211,27 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-4">
-                    <h2 id="faq">F.A.Q</h2>
-                    <ul class="list-unstyled">
-                        <li>Qui sommes-nous ?</li>
-                        <li>Contact</li>
-                        <li>Contribuez au développement</li>
-                        <li>Questions fréquentes</li>
-                    </ul>
-                </div>
+    <footer id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-4">
+            <h2 id="faq">F.A.Q</h2>
+            <ul class="list-unstyled">
+              <li><a href="faq-index.html?#who">Qui sommes-nous ?</a></li>
+              <li><a href="faq-index.html?#contact">Contact</a></li>
+              <li><a href="faq-index.html?#contribuer">Contribuez au développement</a></li>
+              <li><a href="faq-index.html?#questions">Questions fréquentes</a></li>
+            </ul>
+          </div>
 
-                <div class="col-lg-6 col-md-4">
-                    <h2 id="reseaux">Retrouvez-nous sur les réseaux sociaux</h2>
-                    <a href="#"><i id="facebook" class="fa fa-facebook-official fa-3x"></i></a>
-                    <a href="#"><i id="twitter" class="fa fa-twitter fa-3x"></i></a>
-                    <a href="#"><i id="google" class="fa fa-google-plus fa-3x"></i></a>
-                </div>
-            </div>
+          <div class="col-lg-6 col-md-4">
+            <h2 id="reseaux">Retrouvez-nous sur les réseaux sociaux</h2>
+            <a href="#"><i id="facebook" class="fa fa-facebook-official fa-3x"></i></a>
+            <a href="#"><i id="twitter" class="fa fa-twitter fa-3x"></i></a>
+            <a href="#"><i id="google" class="fa fa-google-plus fa-3x"></i></a>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- Message d'alerte demandant de mettre à jour le navigateur quand IE 8 ou inférieur -->
     <!--[if lt IE 8]>

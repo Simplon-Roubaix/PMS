@@ -99,10 +99,14 @@ textarea {
    /* =========================general============================ */
 body {
     background-color: rgba(255,255,255,0.5);
-    padding-top: 50px;
+    padding-top: 60px;
     color:#212328;
     font-family: 'Audiowide', cursive;
     text-align: justify;
+}
+
+.breadcrumb {
+    background-color:rgba(255,255,255,0.5);
 }
 
 h2 {
@@ -193,6 +197,7 @@ margin-top: 5px;
 /* =========================qui sommes-nous=========================== */
 
 .quisommesnous {
+    padding-top: 60px;
     padding:20px;
     margin-top:20px;
     margin-bottom: 20px;
@@ -321,6 +326,7 @@ transition: all .5s ease;
 }
 
 .about {
+    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
@@ -328,6 +334,8 @@ transition: all .5s ease;
 /* =========================contact============================ */
 
 .contact {
+    margin-top:30px;
+    padding-top: 60px;
     padding:20px;
 }
 
@@ -418,6 +426,7 @@ background-image: none;
 /* =========================contribuer============================ */
 
 .contribuer {
+    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
@@ -435,6 +444,7 @@ background-image: none;
 
 
 .panel-group {
+    padding-top: 60px;
     background-color: #eceff1;
     font-family: 'Audiowide', cursive;
 }
