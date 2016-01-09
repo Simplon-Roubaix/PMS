@@ -172,10 +172,6 @@ textarea {
      padding: 0;
    }
 
-   .parties {
-       display:inline-block;
-   }
-
    #home {
        height: 100%;
      margin-top: 50px;
@@ -185,73 +181,6 @@ textarea {
      padding-bottom: 50px;
 
    }
-
-   /*#bgcrossf {
-     position: relative;
-         height: 100vh;
-     width: 100%;
-     margin: 0 auto;
-     overflow: hidden;
-   }
-   #bgcrossf .bgimg {
-     position: absolute;
-     height: 100%;
-     min-width: 100%;
-     left: 0;
-   }
-
-   @media all and (max-width:400px) {
-     #bgcrossf .bgimg {
-       position: absolute;
-       height: 100%;
-       min-width: 100%;
-       left:-45%;
-       }
-   }
-
-   @media all and (min-width:1300px) {
-     #bgcrossf .bgimg {
-       position: absolute;
-       min-height: 100%;
-       width: 100%;
-       left:0;
-       }
-   }
-
-   #bgcrossf .bgimg {
-     -webkit-animation-name: bgcrossfFadeInOut;
-     -webkit-animation-timing-function: ease-in-out;
-     -webkit-animation-iteration-count: infinite;
-     -webkit-animation-duration: 30s;
-     -moz-animation-name: bgcrossfFadeInOut;
-     -moz-animation-timing-function: ease-in-out;
-     -moz-animation-iteration-count: infinite;
-     -moz-animation-duration: 30s;
-     -o-animation-name: bgcrossfFadeInOut;
-     -o-animation-timing-function: ease-in-out;
-     -o-animation-iteration-count: infinite;
-     -o-animation-duration: 30s;
-   }
-   #bgcrossf .bgimg:nth-of-type(1) {
-     -webkit-animation-delay: 20s;
-     -moz-animation-delay: 20s;
-     -o-animation-delay: 20s;
-     animation-delay: 20s;
-   }
-   #bgcrossf .bgimg:nth-of-type(2) {
-     -webkit-animation-delay: 10s;
-     -moz-animation-delay: 10s;
-     -o-animation-delay: 10s;
-     animation-delay: 10s;
-   }
-   #bgcrossf .bgimg:nth-of-type(3) {
-     -webkit-animation-delay: 0s;
-     -moz-animation-delay: 0s;
-     -o-animation-delay: 0s;
-     animation-delay: 0s;
-   }*/
-
-   /*END CROSSFADER*/
 
 
    /*HEADER CONTENT*/
@@ -269,11 +198,9 @@ textarea {
    }
    #slogan h1 {
      font-size: 3em;
-     color:#E3001B !important;
-     text-shadow: #283593 1px 1px, #283593 -1px 1px, #283593 -1px -1px, #283593 1px -1px;
+     color:#283593 !important;
+     text-shadow: #E3001B 1px 1px, #E3001B -1px 1px, #E3001B -1px -1px, #E3001B 1px -1px;
    }
-
-
 
 
    /*CAROUSSEL NEWS*/
@@ -295,6 +222,7 @@ textarea {
      font-family: 'Audiowide', cursive;
    }
    .carousel-inner .btn-general{
+       background-color:#E3001B !important;
      margin-top: 0;
      padding: 0;
    }
@@ -311,9 +239,6 @@ textarea {
    /*END NEWS CAROUSEL*/
    /*END CONTENT */
 
-#toprapide, #topcampagne, #topcreation {
-  height: 100%;
-}
 
    /*Style de la police*/
 .row {
@@ -326,16 +251,24 @@ textarea {
      font-size: 100%;
    }
 
-   /*taille, image de fond et position de la section partie rapide*/
-   .rapide  {
-    background-color:#eceff1;
-     /*background-image: url(../img/cyber.jpg);*/
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     padding-top:10%;
-
+   #topparties {
+   height: 100%;
    }
+
+    #topcreation {
+     height: 100%;
+   }
+
+
+   /*taille, image de fond et position de la section parties*/
+   .parties {
+       background-color:#eceff1;
+       display:inline-block;
+       background-position: center;
+       background-size:cover;
+       padding-top:5%;
+       padding-bottom:5%;
+      }
 
    @media all and (max-width:480px) {
      .rapide {
@@ -351,7 +284,7 @@ textarea {
 
    /*Couleur des boutons*/
    .btnperso {
-     background-color: #283593 !important;
+     background-color: #E3001B !important;
      color: #fff !important;
      border: 2px solid #283593 !important;
       font-family: 'Audiowide', cursive;
@@ -381,19 +314,11 @@ textarea {
 
    }
 
-   /*Section campagne*/
-   .campagne {
-
-     /*background-image: url(../img/fantasy.jpg);*/
-     background-size: cover;
-     background-repeat: no-repeat;
-     padding-top:15%;
-   }
-
    /*bordure, position et couleur de fond du bloc partie campagne*/
    #campagne {
      border:solid 3px #283593;
-     margin-top: 3%;
+     border-radius: 20px;
+     margin-top: 5%;
      background-color:rgba(255,255,255,0.5);
    }
 
@@ -414,16 +339,17 @@ textarea {
 
 /*taille, image de fond et position de la section partie création*/
 .creation {
+    height:100%;
     background-color:rgba(255,255,255,0.5);
-  /*background-image: url(../img/ecrire.jpg);*/
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  padding-top:10%;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 
 #creation {
   border:solid 3px #283593;
+  border-radius: 20px;
   margin-top: 3%;
   background-color:rgba(255,255,255,0.5);
 }
@@ -443,7 +369,7 @@ textarea {
 
    /*Couleur de fond du footer*/
    footer {
-     background-color: #9d9d9d;
+     background-color: #eceff1;
       font-family: 'Audiowide', cursive;
    }
 
@@ -490,14 +416,6 @@ textarea {
      #google:hover{
      color:#283593 !important;
    }
-
-
-
-
-
-
-
-
 
 
 
