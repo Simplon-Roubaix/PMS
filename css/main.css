@@ -171,8 +171,13 @@ textarea {
    .container-fluid {
      padding: 0;
    }
+
+   .parties {
+       display:inline-block;
+   }
+
    #home {
-       height: 100vh;
+       height: 100%;
      margin-top: 50px;
      margin-left: 0;
      margin-right: 0;
@@ -181,79 +186,7 @@ textarea {
 
    }
 
-
-
-   /* background-crossfader*/
-
-   @-webkit-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @-moz-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @-o-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     92% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   #bgcrossf {
+   /*#bgcrossf {
      position: relative;
          height: 100vh;
      width: 100%;
@@ -316,7 +249,7 @@ textarea {
      -moz-animation-delay: 0s;
      -o-animation-delay: 0s;
      animation-delay: 0s;
-   }
+   }*/
 
    /*END CROSSFADER*/
 
@@ -326,7 +259,7 @@ textarea {
    #home .row {
      width: 100%;
      margin: 0;
-     overflow-y: hidden;
+
    }
    #logo-PMS img {
      margin-top: 10px;
@@ -336,7 +269,7 @@ textarea {
    }
    #slogan h1 {
      font-size: 3em;
-     color:rgba(255,255,255,0.5) !important;
+     color:#E3001B !important;
      text-shadow: #283593 1px 1px, #283593 -1px 1px, #283593 -1px -1px, #283593 1px -1px;
    }
 
@@ -379,7 +312,7 @@ textarea {
    /*END CONTENT */
 
 #toprapide, #topcampagne, #topcreation {
-  height: 100vh;
+  height: 100%;
 }
 
    /*Style de la police*/
@@ -395,8 +328,8 @@ textarea {
 
    /*taille, image de fond et position de la section partie rapide*/
    .rapide  {
-
-     background-image: url(../img/cyber.jpg);
+    background-color:#eceff1;
+     /*background-image: url(../img/cyber.jpg);*/
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -442,6 +375,7 @@ textarea {
    /* bordure, position et couleur de fond du bloc partie rapide*/
    #rapide {
      border:solid 3px #283593;
+     border-radius: 20px;
      margin-top: 5%;
      background-color:rgba(255,255,255,0.5);
 
@@ -450,7 +384,7 @@ textarea {
    /*Section campagne*/
    .campagne {
 
-     background-image: url(../img/fantasy.jpg);
+     /*background-image: url(../img/fantasy.jpg);*/
      background-size: cover;
      background-repeat: no-repeat;
      padding-top:15%;
@@ -480,7 +414,8 @@ textarea {
 
 /*taille, image de fond et position de la section partie création*/
 .creation {
-  background-image: url(../img/ecrire.jpg);
+    background-color:rgba(255,255,255,0.5);
+  /*background-image: url(../img/ecrire.jpg);*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -508,7 +443,7 @@ textarea {
 
    /*Couleur de fond du footer*/
    footer {
-     background-color: rgba(255,255,255,0.5);
+     background-color: #9d9d9d;
       font-family: 'Audiowide', cursive;
    }
 
