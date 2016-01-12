@@ -1,0 +1,537 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    font-family:'Audiowide', cursive !important;
+    color:#212328 !important;}
+
+
+
+   section{
+       padding-top: 50px;
+       background-color: #eed39a;
+      /* background-color: white;*/
+   }
+
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
+  }
+
+/* Button play and note*/
+   .play{
+       width:140px;
+   }
+
+.vote{
+    width:140px;
+}
+
+.tuto{
+    margin-top: -50px;
+}
+
+
+   /* NAVBAR*/
+
+   .navbar-brand {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     text-align: center;
+     font-family: 'Audiowide', cursive;
+     color: rgb(0, 0, 0) !important;
+     margin: auto;
+   }
+
+   .navbar-inverse {
+     background-color: rgba(215, 215, 215, 0.6) !important;
+     background-image: none !important;
+     border: none !important;
+   }
+   #navdropd {
+     background-color: rgba(215, 215, 215, 0.6) !important;
+   }
+    #navdropd > li > a:hover {
+      background-image: none;
+      background-color: #9d9d9d !important;
+    }
+
+   nav li a {
+     padding: 5px !important;
+     margin-top: 8px !important;
+   }
+   .btn-general {
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     padding: 5px 0;
+     font-size: 1.1em;
+     font-family: 'Audiowide', cursive;
+   }
+   .btn-general:hover {
+     background-color: #9d9d9d !important;
+     color: #fff !important;
+     border: 2px solid #eceff1 !important;
+     margin-left: 15px;
+   }
+   .btn-extensed {
+     padding: 20px;
+     font-size: 1.4em
+   }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+     background-color: #9d9d9d !important;
+     background-image: none;
+   }
+   .navbar-header button {
+     background-color: #283593;
+   }
+   .navbar-inverse .navbar-toggle .icon-bar{
+     background-color: #000000 !important;
+   }
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
+
+
+   section{
+       padding-top: 50px;
+       background-color: rgba(255,255,255,0.5) !important;
+   }
+
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
+  }
+
+/* Button play and note*/
+   .play{
+       width:140px;
+       background-color:#E3001B !important;
+   }
+
+.vote{
+    width:140px;
+}
+
+ /* //Button play and note// */
+
+
+ /*Couleur de fond du footer*/
+ footer {
+   background-color: #eceff1;
+    font-family: 'Audiowide', cursive;
+ }
+
+ /*Position de la FAQ*/
+ #faq {
+   padding-bottom: 5%;
+   margin-left: 15%;
+ }
+
+ /*Position de la liste de la FAQ*/
+ footer li {
+   margin-left: 15%;
+ }
+
+ footer li a {
+   color:#212328;
+ }
+
+ /*hover de la liste de la FAQ*/
+ footer li a:hover {
+   color:#283593 !important;
+   text-decoration: none;
+ }
+
+ /*Position du titre réseaux sociaux*/
+ #reseaux {
+   padding-bottom: 5%;
+ }
+
+ /*Position et couleur des fafa réseaux sociaux*/
+ #facebook, #twitter, #google {
+   margin-left: 15%;
+   color:#212328;
+ }
+
+ #facebook:hover{
+   color:#283593 !important;
+ }
+
+ #twitter:hover{
+   color:#283593 !important;
+ }
+
+   #google:hover{
+   color:#283593 !important;
+ }
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/*************************************CSS TEST MODAL **********************************/
+
+
+#fade { /*--Masque opaque noir de fond--*/
+	display: none; /*--masqué par défaut--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .60;
+	z-index: 9999;
+}
+
+.popup_block{
+	display: none; /*--masqué par défaut--*/
+	/*background: #fff;*/
+	padding: 20px;
+	/*border: 20px solid #ddd;*/
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 20%; left: 50%;
+	z-index: 99999;
+	/*--Les différentes définitions de Box Shadow en CSS3--*/
+	/*-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;*/
+	/*--Coins arrondis en CSS3--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    transition:
+}
+img.btn_close {
+	float: right;
+	margin: -55px -55px 0 0;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html #fade {
+position: absolute;
+}
+*html .popup_block {
+position: absolute;
+}
+
+.test7{
+    text-align: center;
+}
+
+.poplight{
+    font-size: 1.5em;
+}
+
+#tutopics{
+    float: right;
+    position: absolute;
+}
+
+#bulle{
+    margin-left: 235px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.poplight{
+    margin-left: 45%;
+}

@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Le site dont vous êtes le héro</title>
+    <meta name="description" content="Histoires interactives">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/anthony-main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-left">
+                <li>
+                  <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer <span class="caret"></span></a>
+                  <ul id="navdropd" class="dropdown-menu">
+                    <li><a href="index.html?#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
+                    <li><a href="index.html?#topcreation" class="btn btn-general" role="button">Creation</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html?#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
+                <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button"><span class="fa fa-sign-in"></span> Connexion</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+    </header>
+
+    <section>
+
+        <h2 class="test7">Bienvenu sur le tutorial du site dont vous êtes le héro :</h2>
+
+        <h3 class="test7">Play my Story !</h3>
+
+        <p class="test7"> Nous allons découvrir ensemble les mécaniques du système du jeu avec cette première histoire.
+        Vous êtes prêt ? Pas de panique ! C'est très simple et très rapide !</p>
+
+        <a href="#?w=500" rel="popup_name" class="poplight" >En savoir plus</a>
+
+
+        <div id="popup_name" class="popup_block">
+            <img src="img/anthony_bulle.png" id="tutopics" />
+        </div>
+
+
+
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-4">
+                    <h2 id="faq">F.A.Q</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="faq-index.html?#who">Qui sommes-nous ?</a></li>
+                        <li><a href="faq-index.html?#contact">Contact</a></li>
+                        <li><a href="faq-index.html?#contribuer">Contribuez au développement</a></li>
+                        <li><a href="faq-index.html?#questions">Questions fréquentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-md-4">
+                    <h2 id="reseaux">Retrouvez-nous sur les réseaux sociaux</h2>
+                    <a href="#"><i id="facebook" class="fa fa-facebook-official fa-3x"></i></a>
+                    <a href="#"><i id="twitter" class="fa fa-twitter fa-3x"></i></a>
+                    <a href="#"><i id="google" class="fa fa-google-plus fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Message d'alerte demandant de mettre à jour le navigateur quand IE 8 ou inférieur -->
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <!-- Structure HTML du site web -->
+
+
+
+    <!-- Elements HTML interactifs indépendants du flow de la structure -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+    <script>
+    //Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #
+    $('a.poplight[href^=#]').click(function() {
+    	var popID = $(this).attr('rel'); //Trouver la pop-up correspondante
+    	var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
+
+    	//Récupérer les variables depuis le lien
+    	var query= popURL.split('?');
+    	var dim= query[1].split('&amp;');
+    	var popWidth = dim[0].split('=')[1]; //La première valeur du lien
+
+        var text = ("<p id='bulle'>lorem lorem lorem lorem lorem, lorem lorem lorem lorem lorem lorem lorem lorem lorem, lorem lorem lorem lorem lorem lorem</p>")
+
+    	//Faire apparaitre la pop-up et ajouter le bouton de fermeture
+    	$('#' + popID).fadeIn().css({
+    		'width': Number(popWidth)
+    	})
+    	$("#popup_name").append(text);
+
+    	//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
+    	var popMargTop = ($('#' + popID).height() + 80) / 2;
+    	var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+    	//On affecte le margin
+    	$('#' + popID).css({
+    		'margin-top' : -popMargTop,
+    		'margin-left' : -popMargLeft
+    	});
+
+    	//Effet fade-in du fond opaque
+    	$('body').append('<div id="fade"></div>'); //Ajout du fond opaque noir
+    	//Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues de IE
+    	$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
+
+    	return false;
+    });
+
+    //Fermeture de la pop-up et du fond
+    $('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le calque...
+    	$('#fade , .popup_block').fadeOut(function() {
+    		$('#fade, a.close').remove();  //...ils disparaissent ensemble
+    	});
+    	return false;
+    });
+</script>
+
+
+
+    <!-- Librairies et initialisations JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  -->
+</body>
+
+</html>
