@@ -99,18 +99,14 @@ textarea {
    /* =========================general============================ */
 body {
     background-color: rgba(255,255,255,0.5);
+    padding-top: 60px;
     color:#212328;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Audiowide', cursive;
     text-align: justify;
 }
 
-.breadcrumb a {
-    color:#212328;
-    font-family: 'Audiowide', cursive;
-}
-
 .breadcrumb {
-    font-family: 'Audiowide', cursive;
+    background-color:rgba(255,255,255,0.5);
 }
 
 h2 {
@@ -130,10 +126,78 @@ p {
     color:#212328;
 }
 
+/* NAVBAR*/
+
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  color: rgb(0, 0, 0) !important;
+  margin: auto;
+}
+
+.navbar-inverse {
+  background-color: rgba(215, 215, 215, 0.6) !important;
+  background-image: none !important;
+  border: none !important;
+}
+#navdropd {
+  background-color: rgba(215, 215, 215, 0.6) !important;
+}
+ #navdropd > li > a:hover {
+   background-image: none;
+   background-color: #9d9d9d !important;
+ }
+
+nav li a {
+  padding: 5px !important;
+  margin-top: 8px !important;
+}
+.btn-general {
+  background-color: #283593 !important;
+  color: #fff !important;
+  border: 2px solid #283593 !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px 0;
+  font-size: 1.1em;
+  font-family: 'Audiowide', cursive;
+}
+.btn-general:hover {
+  background-color: #9d9d9d !important;
+  color: #fff !important;
+  border: 2px solid #eceff1 !important;
+  margin-left: 15px;
+}
+.btn-extensed {
+  padding: 20px;
+  font-size: 1.4em
+}
+
+ .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+  background-color: #9d9d9d !important;
+  background-image: none;
+}
+.navbar-header button {
+  background-color: #283593;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #000000 !important;
+}
+.navbar-header .navbar-toggle {
+padding: 10px 10px;
+margin-top: 5px;
+}
+
 
 /* =========================qui sommes-nous=========================== */
 
 .quisommesnous {
+    padding-top: 60px;
     padding:20px;
     margin-top:20px;
     margin-bottom: 20px;
@@ -157,6 +221,18 @@ transition: all .5s ease;
 }
 
 .Caroline img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #999;
+    line-height: 13.5em;
+    background-repeat: no-repeat;
+}
+
+.Jade {
+transition: all .5s ease;
+}
+
+.Jade img {
     border: 1px solid #ccc;
     border-radius: 50%;
     color: #999;
@@ -211,6 +287,11 @@ transition: all .5s ease;
     width: 185px;
 }
 
+.Jade:hover {
+    height: 185px;
+    width: 185px;
+}
+
 .Anthony:hover {
     height: 185px;
     width: 185px;
@@ -245,18 +326,21 @@ transition: all .5s ease;
 }
 
 .about {
-    background-color:#d2ba92;
+    padding-top: 60px;
+    background-color:#eceff1;
     padding:20px;
 }
 
 /* =========================contact============================ */
 
 .contact {
+    margin-top:30px;
+    padding-top: 60px;
     padding:20px;
 }
 
 .well {
-background-color:#d2ba92 !important;
+background-color:#eceff1 !important;
 background-image: none;
 }
 
@@ -268,22 +352,23 @@ background-image: none;
 
 .bigicon {
     font-size: 35px;
-    color:#212328;
+    color:#283593;
 }
 
 .contact i {
  font-size: 2.5rem;
 }
 
-.btn {
-    background-color:#212328;
-    color:#d2ba92;
-    background-image: none;
+.faqbtn {
+    background-color:#E3001B;
+    color: #fff;
+    border: 2px solid #283593 !important;
+    /*background-image: none;*/
     font-family: 'Audiowide', cursive;
 }
 
-.btn:hover {
-    color:#d2ba92;
+.faqbtn:hover {
+    background-color:#9d9d9d;
 }
 
 .icon-button {
@@ -295,8 +380,8 @@ background-image: none;
  display: inline-block;
  text-align: center;
  font-size: 2rem;
- background: #212328;
- color:#d2ba92;
+ background-color: #283593;
+ color:#9d9d9d;
 }
 
  .icon-button span {
@@ -316,8 +401,8 @@ background-image: none;
    width: 3.6rem;
    height: 3.6rem;
    margin: -1.8rem;
-   background-color:#d2ba92;
-   color:#212328;
+   background-color:#9d9d9d;
+   color:#283593;
 }
 
  .icon-button i {
@@ -330,18 +415,19 @@ background-image: none;
    z-index: 10;
    line-height: 3.6rem;
    transition: all 0.3s;
-   color:#d2ba92;
+   color:#9d9d9d;
 }
 
 .icon-button:hover i {
-    color:#212328;
+    color:#283593;
 }
 
 
 /* =========================contribuer============================ */
 
 .contribuer {
-    background-color:#d2ba92;
+    padding-top: 60px;
+    background-color:#eceff1;
     padding:20px;
 }
 
@@ -358,8 +444,8 @@ background-image: none;
 
 
 .panel-group {
-    /*border: solid 2px #212328;*/
-    background-color: #d2ba92;
+    padding-top: 60px;
+    background-color: #eceff1;
     font-family: 'Audiowide', cursive;
 }
 
@@ -377,7 +463,6 @@ background-image: none;
 }
 
 .panel-heading [data-toggle="collapse"]:after {
-    /*font-family: 'Glyphicons Halflings';*/
     float: right;
     color: #F58723;
     font-size: 18px;
@@ -438,13 +523,13 @@ background-image: none;
     }
 
     p {
-        font-family: 'Fredericka the Great', cursive;
+        font-family: 'Audiowide', cursive;
         text-align: center;
         font-size: 1.5em;
         color:white;
     }
 
-    .btn {
+    .faqbtn {
         width: 300px;
     }
 
@@ -452,7 +537,7 @@ background-image: none;
 
 /*/////////////////////////////screen between 1024px and more////////////////////////*/
 @media screen and (min-width: 1024px) {
-    .btn {
+    .faqbtn {
         width: 300px;
     }
 }

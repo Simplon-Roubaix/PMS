@@ -95,6 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    font-family:'Audiowide', cursive !important;
+    color:#212328 !important;}
+
+
 
    section{
        padding-top: 50px;
@@ -135,9 +140,6 @@ textarea {
     margin-top: -50px;
 }
 
- /* //Button play and note// */
-
-   /* NAVBAR*/
 
    /* NAVBAR*/
 
@@ -206,41 +208,96 @@ textarea {
    margin-top: 5px;
    }
 
-  /* //NAVBAR // */
 
+   section{
+       padding-top: 50px;
+       background-color: rgba(255,255,255,0.5) !important;
+   }
 
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
 
-  /*Couleur de fond du footer*/
-  footer {
-  background-color: #eed39a;
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
   }
 
-  /*Position de la FAQ*/
-  #faq {
-  padding-bottom: 5%;
-  margin-left: 15%;
-  }
+/* Button play and note*/
+   .play{
+       width:140px;
+       background-color:#E3001B !important;
+   }
 
-  /*Position de la liste de la FAQ*/
-  footer li {
-  margin-left: 15%;
-  }
+.vote{
+    width:140px;
+}
 
-  /*hover de la liste de la FAQ*/
-  footer li:hover {
-  color:white;
-  }
+ /* //Button play and note// */
 
-  /*Position du titre réseaux sociaux*/
-  #reseaux {
-  padding-bottom: 5%;
-  }
 
-  /*Position et couleur des fafa réseaux sociaux*/
-  #facebook, #twitter, #google {
-  margin-left: 15%;
-  color:#333;
-  }
+ /*Couleur de fond du footer*/
+ footer {
+   background-color: #eceff1;
+    font-family: 'Audiowide', cursive;
+ }
+
+ /*Position de la FAQ*/
+ #faq {
+   padding-bottom: 5%;
+   margin-left: 15%;
+ }
+
+ /*Position de la liste de la FAQ*/
+ footer li {
+   margin-left: 15%;
+ }
+
+ footer li a {
+   color:#212328;
+ }
+
+ /*hover de la liste de la FAQ*/
+ footer li a:hover {
+   color:#283593 !important;
+   text-decoration: none;
+ }
+
+ /*Position du titre réseaux sociaux*/
+ #reseaux {
+   padding-bottom: 5%;
+ }
+
+ /*Position et couleur des fafa réseaux sociaux*/
+ #facebook, #twitter, #google {
+   margin-left: 15%;
+   color:#212328;
+ }
+
+ #facebook:hover{
+   color:#283593 !important;
+ }
+
+ #twitter:hover{
+   color:#283593 !important;
+ }
+
+   #google:hover{
+   color:#283593 !important;
+ }
+
+
 
 
 /* ==========================================================================

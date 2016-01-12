@@ -16,12 +16,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  font-family: 'Permanent Marker', cursive;
-}
-body {
-  /*padding-top: 50px;
-  /*fixed navbar top */
-  font-family: 'Permanent Marker', cursive;
 }
 
 /*
@@ -120,7 +114,7 @@ textarea {
    }
     #navdropd > li > a:hover {
       background-image: none;
-      background-color: #97855F !important;
+      background-color: #9d9d9d !important;
     }
 
    nav li a {
@@ -128,9 +122,9 @@ textarea {
      margin-top: 8px !important;
    }
    .btn-general {
-     background-color: #eed39a !important;
-     color: #6c5a33 !important;
-     border: 2px solid #eed39a !important;
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
      margin-left: 10px;
      margin-right: 10px;
      margin-top: 10px;
@@ -139,29 +133,30 @@ textarea {
      font-family: 'Audiowide', cursive;
    }
    .btn-general:hover {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      color: #fff !important;
-     border: 2px solid #eed39a !important;
+     border: 2px solid #eceff1 !important;
      margin-left: 15px;
    }
    .btn-extensed {
      padding: 20px;
      font-size: 1.4em
    }
+
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      background-image: none;
    }
    .navbar-header button {
-     background-color: #eed39a;
+     background-color: #283593;
    }
-.navbar-inverse .navbar-toggle .icon-bar{
+   .navbar-inverse .navbar-toggle .icon-bar{
      background-color: #000000 !important;
    }
-.navbar-header .navbar-toggle {
-  padding: 10px 10px;
-  margin-top: 5px;
-}
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
 
    /*HEADER CONTENT*/
 
@@ -170,8 +165,9 @@ textarea {
    .container-fluid {
      padding: 0;
    }
+
    #home {
-       height: 100vh;
+       height: 100%;
      margin-top: 50px;
      margin-left: 0;
      margin-right: 0;
@@ -181,151 +177,12 @@ textarea {
    }
 
 
-
-   /* background-crossfader*/
-
-   @-webkit-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @-moz-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @-o-keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     92% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   @keyframes bgcrossfFadeInOut {
-     0% {
-       opacity: 1;
-     }
-     30% {
-       opacity: 1;
-     }
-     33% {
-       opacity: 0;
-     }
-     97% {
-       opacity: 0;
-     }
-     100% {
-       opacity: 1;
-     }
-   }
-   #bgcrossf {
-     position: relative;
-         height: 100vh;
-     width: 100%;
-     margin: 0 auto;
-     overflow: hidden;
-   }
-   #bgcrossf .bgimg {
-     position: absolute;
-     height: 100%;
-     min-width: 100%;
-     left: 0;
-   }
-
-   @media all and (max-width:400px) {
-     #bgcrossf .bgimg {
-       position: absolute;
-       height: 100%;
-       min-width: 100%;
-       left:-45%;
-       }
-   }
-
-   @media all and (min-width:1300px) {
-     #bgcrossf .bgimg {
-       position: absolute;
-       min-height: 100%;
-       width: 100%;
-       left:0;
-       }
-   }
-
-   #bgcrossf .bgimg {
-     -webkit-animation-name: bgcrossfFadeInOut;
-     -webkit-animation-timing-function: ease-in-out;
-     -webkit-animation-iteration-count: infinite;
-     -webkit-animation-duration: 30s;
-     -moz-animation-name: bgcrossfFadeInOut;
-     -moz-animation-timing-function: ease-in-out;
-     -moz-animation-iteration-count: infinite;
-     -moz-animation-duration: 30s;
-     -o-animation-name: bgcrossfFadeInOut;
-     -o-animation-timing-function: ease-in-out;
-     -o-animation-iteration-count: infinite;
-     -o-animation-duration: 30s;
-   }
-   #bgcrossf .bgimg:nth-of-type(1) {
-     -webkit-animation-delay: 20s;
-     -moz-animation-delay: 20s;
-     -o-animation-delay: 20s;
-     animation-delay: 20s;
-   }
-   #bgcrossf .bgimg:nth-of-type(2) {
-     -webkit-animation-delay: 10s;
-     -moz-animation-delay: 10s;
-     -o-animation-delay: 10s;
-     animation-delay: 10s;
-   }
-   #bgcrossf .bgimg:nth-of-type(3) {
-     -webkit-animation-delay: 0s;
-     -moz-animation-delay: 0s;
-     -o-animation-delay: 0s;
-     animation-delay: 0s;
-   }
-
-   /*END CROSSFADER*/
-
-
    /*HEADER CONTENT*/
 
    #home .row {
      width: 100%;
      margin: 0;
-     overflow-y: hidden;
+
    }
    #logo-PMS img {
      margin-top: 10px;
@@ -335,11 +192,9 @@ textarea {
    }
    #slogan h1 {
      font-size: 3em;
-     color:#eed39a;
-     text-shadow: #16203E 1px 1px, #16203E -1px 1px, #16203E -1px -1px, #16203E 1px -1px;
+     color:#283593 !important;
+     text-shadow: #E3001B 1px 1px, #E3001B -1px 1px, #E3001B -1px -1px, #E3001B 1px -1px;
    }
-
-
 
 
    /*CAROUSSEL NEWS*/
@@ -349,18 +204,19 @@ textarea {
      margin-bottom: 30px;
    }
    #newscarousel .item {
-     background-color: rgba(255, 255, 255, 0.85);
+     background-color: rgba(255, 255, 255, 0.5);
      border-radius: 20px;
      margin: 10px 10%;
      padding: 10px 10% 20px 10%;
    }
    .carousel-inner {
-     color: rgb(56, 56, 56);
+     color: #212328;
    }
    .carousel-inner h3 {
      font-family: 'Audiowide', cursive;
    }
    .carousel-inner .btn-general{
+       background-color:#E3001B !important;
      margin-top: 0;
      padding: 0;
    }
@@ -368,18 +224,15 @@ textarea {
      bottom: 0;
    }
    .carousel-indicators li {
-     border: 1px solid #97855F;
+     border: 1px solid #283593;
    }
    .carousel-indicators .active {
-     background-color: #97855F;
+     background-color: #283593;
    }
 
    /*END NEWS CAROUSEL*/
    /*END CONTENT */
 
-#toprapide, #topcampagne, #topcreation {
-  height: 100vh;
-}
 
    /*Style de la police*/
 .row {
@@ -388,20 +241,28 @@ textarea {
 }
 
    body {
-     font-family: 'Permanent Marker', cursive;
+     font-family: 'Audiowide', cursive;
      font-size: 100%;
    }
 
-   /*taille, image de fond et position de la section partie rapide*/
-   .rapide  {
-
-     background-image: url(../img/cyber.jpg);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     padding-top:10%;
-
+   #topparties {
+   height: 100%;
    }
+
+    #topcreation {
+     height: 100%;
+   }
+
+
+   /*taille, image de fond et position de la section parties*/
+   .parties {
+       background-color:#eceff1;
+       display:inline-block;
+       background-position: center;
+       background-size:cover;
+       padding-top:5%;
+       padding-bottom:5%;
+      }
 
    @media all and (max-width:480px) {
      .rapide {
@@ -417,9 +278,9 @@ textarea {
 
    /*Couleur des boutons*/
    .btnperso {
-     background-color: #eed39a !important;
-     color: #97855F !important;
-     border: 2px solid #eed39a !important;
+     background-color: #E3001B !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
       font-family: 'Audiowide', cursive;
    }
 
@@ -434,29 +295,24 @@ textarea {
    /*Hover du bouton partie rapide*/
    #partierapide:hover {
      color:white !important;
+     background-color:#9d9d9d !important;
+     border: 2px solid white !important;
    }
 
    /* bordure, position et couleur de fond du bloc partie rapide*/
    #rapide {
-     border:solid 3px #eed39a;
+     border:solid 3px #283593;
+     border-radius: 20px;
      margin-top: 5%;
      background-color:rgba(255,255,255,0.5);
 
    }
 
-   /*Section campagne*/
-   .campagne {
-
-     background-image: url(../img/fantasy.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     padding-top:15%;
-   }
-
    /*bordure, position et couleur de fond du bloc partie campagne*/
    #campagne {
-     border:solid 3px #eed39a;
-     margin-top: 3%;
+     border:solid 3px #283593;
+     border-radius: 20px;
+     margin-top: 5%;
      background-color:rgba(255,255,255,0.5);
    }
 
@@ -471,19 +327,23 @@ textarea {
    /*Hover du bouton partie campagne*/
    #partiecampagne:hover {
      color: white !important;
+     background-color:#9d9d9d !important;
+     border: 2px solid white !important;
    }
 
 /*taille, image de fond et position de la section partie création*/
 .creation {
-  background-image: url(../img/ecrire.jpg);
+    height:100%;
+    background-color:rgba(255,255,255,0.5);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  padding-top:10%;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 
 #creation {
-  border:solid 3px #eed39a;
+  border:solid 3px #283593;
+  border-radius: 20px;
   margin-top: 3%;
   background-color:rgba(255,255,255,0.5);
 }
@@ -496,12 +356,14 @@ textarea {
 }
 
 #partiecreation:hover {
-  color: white !important
+  color: white !important;
+  background-color:#9d9d9d !important;
+  border: 2px solid white !important;
 }
 
    /*Couleur de fond du footer*/
    footer {
-     background-color: #eed39a;
+     background-color: #eceff1;
       font-family: 'Audiowide', cursive;
    }
 
@@ -517,12 +379,12 @@ textarea {
    }
 
    footer li a {
-     color:#333;
+     color:#212328;
    }
 
    /*hover de la liste de la FAQ*/
    footer li a:hover {
-     color:white;
+     color:#283593 !important;
      text-decoration: none;
    }
 
@@ -534,16 +396,20 @@ textarea {
    /*Position et couleur des fafa réseaux sociaux*/
    #facebook, #twitter, #google {
      margin-left: 15%;
-     color:#333;
+     color:#212328;
    }
 
+   #facebook:hover{
+     color:#283593 !important;
+   }
 
+   #twitter:hover{
+     color:#283593 !important;
+   }
 
-
-
-
-
-
+     #google:hover{
+     color:#283593 !important;
+   }
 
 
 

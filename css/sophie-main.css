@@ -96,17 +96,16 @@ textarea {
    ========================================================================== */
 /*Style de la police*/
 body {
-  font-family: 'Permanent Marker', cursive;
   font-size: 100%;
 }
 
 /*taille, image de fond et position de la section partie rapide*/
 .rapide  {
   height: 780px;
-  background-image: url(../img/cyber.jpg);
+  /*background-image: url(../img/cyber.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   padding-top:10%;
 
 }
@@ -121,11 +120,11 @@ body {
 }
 
 /*Couleur des boutons*/
-.btnperso {
+/*.btnperso {
   background-color: #eed39a !important;
   color: #97855F !important;
   border: 2px solid #eed39a !important;
-}
+}*/
 
 /*Position du bouton*/
 #partierapide {
@@ -136,13 +135,13 @@ margin-bottom: 5%;
 }
 
 /*Hover du bouton partie rapide*/
-#partierapide:hover {
+/*#partierapide:hover {
   color:white !important;
-}
+}*/
 
 /* bordure, position et couleur de fond du bloc partie rapide*/
 #rapide {
-  border:solid 3px #eed39a;
+  /*border:solid 3px #eed39a;*/
   margin-top: 5%;
   background-color:rgba(255,255,255,0.5);
 
@@ -151,16 +150,16 @@ margin-bottom: 5%;
 /*Section campagne*/
 .campagne {
   height: 790px;
-  background-image: url(../img/fantasy.jpg);
+  /*background-image: url(../img/fantasy.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   padding-top:15%;
 
 }
 
 /*bordure, position et couleur de fond du bloc partie campagne*/
 #campagne {
-  border:solid 3px #eed39a;
+  /*border:solid 3px #eed39a;*/
   margin-top: 3%;
   background-color:rgba(255,255,255,0.5);
 }
@@ -174,14 +173,14 @@ margin-bottom: 5%;
 }
 
 /*Hover du bouton partie campagne*/
-#partiecampagne:hover {
+/*#partiecampagne:hover {
   color: white !important;
-}
+}*/
 
 /*Couleur de fond du footer*/
-footer {
+/*footer {
   background-color: #eed39a;
-}
+}*/
 
 /*Position de la FAQ*/
 #faq {
@@ -194,13 +193,13 @@ footer li {
   margin-left: 15%;
 }
 
-footer li a {
+/*footer li a {
   color:#333;
-}
+}*/
 
 /*hover de la liste de la FAQ*/
 footer li a:hover {
-  color:white;
+  /*color:white;*/
   text-decoration: none;
 }
 
@@ -212,7 +211,7 @@ footer li a:hover {
 /*Position et couleur des fafa réseaux sociaux*/
 #facebook, #twitter, #google {
   margin-left: 15%;
-  color:#333;
+  /*color:#333;*/
 }
 
 
