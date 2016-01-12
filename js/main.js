@@ -1,1 +1,1 @@
-document.getElementById("popup_name").style.transition = "all 4s"; 
+document.getElementById("popup_name").style.transition = "all 4s";
