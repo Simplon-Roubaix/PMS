@@ -95,6 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    font-family:'Audiowide', cursive !important;
+    color:#212328 !important;}
+
+
 
    section{
        padding-top: 50px;
@@ -129,9 +134,8 @@ textarea {
 
 .vote{
     width:140px;
-}
 
- /* //Button play and note// */
+}
 
    /* NAVBAR*/
 
@@ -152,81 +156,144 @@ textarea {
      border: none !important;
    }
    #navdropd {
-     background-color: #16203E;
+     background-color: rgba(215, 215, 215, 0.6) !important;
    }
+    #navdropd > li > a:hover {
+      background-image: none;
+      background-color: #9d9d9d !important;
+    }
+
    nav li a {
      padding: 5px !important;
      margin-top: 8px !important;
    }
    .btn-general {
-     background-color: #eed39a !important;
-     color: #6c5a33 !important;
-     border: 2px solid #eed39a !important;
+     background-color: #283593 !important;
+     color: #fff !important;
+     border: 2px solid #283593 !important;
      margin-left: 10px;
      margin-right: 10px;
      margin-top: 10px;
      padding: 5px 0;
      font-size: 1.1em;
+     font-family: 'Audiowide', cursive;
    }
    .btn-general:hover {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      color: #fff !important;
-     border: 2px solid #eed39a !important;
+     border: 2px solid #eceff1 !important;
+     margin-left: 15px;
    }
    .btn-extensed {
      padding: 20px;
      font-size: 1.4em
    }
+
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
-     background-color: #97855F !important;
+     background-color: #9d9d9d !important;
      background-image: none;
    }
    .navbar-header button {
-     background-color: #eed39a;
+     background-color: #283593;
    }
-  .navbar-inverse .navbar-toggle .icon-bar{
+   .navbar-inverse .navbar-toggle .icon-bar{
      background-color: #000000 !important;
    }
-  .navbar-header .navbar-toggle {
-  padding: 10px 10px;
-  margin-top: 5px;
+   .navbar-header .navbar-toggle {
+   padding: 10px 10px;
+   margin-top: 5px;
+   }
+
+
+   section{
+       padding-top: 50px;
+       background-color: rgba(255,255,255,0.5) !important;
+   }
+
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
   }
 
-  /* //NAVBAR // */
+/* Button play and note*/
+   .play{
+       width:140px;
+       background-color:#E3001B !important;
+   }
+
+.vote{
+    width:140px;
+}
+
+ /* //Button play and note// */
 
 
+ /*Couleur de fond du footer*/
+ footer {
+   background-color: #eceff1;
+    font-family: 'Audiowide', cursive;
+ }
 
-  /*Couleur de fond du footer*/
-  footer {
-  background-color: #eed39a;
-  }
+ /*Position de la FAQ*/
+ #faq {
+   padding-bottom: 5%;
+   margin-left: 15%;
+ }
 
-  /*Position de la FAQ*/
-  #faq {
-  padding-bottom: 5%;
-  margin-left: 15%;
-  }
+ /*Position de la liste de la FAQ*/
+ footer li {
+   margin-left: 15%;
+ }
 
-  /*Position de la liste de la FAQ*/
-  footer li {
-  margin-left: 15%;
-  }
+ footer li a {
+   color:#212328;
+ }
 
-  /*hover de la liste de la FAQ*/
-  footer li:hover {
-  color:white;
-  }
+ /*hover de la liste de la FAQ*/
+ footer li a:hover {
+   color:#283593 !important;
+   text-decoration: none;
+ }
 
-  /*Position du titre réseaux sociaux*/
-  #reseaux {
-  padding-bottom: 5%;
-  }
+ /*Position du titre réseaux sociaux*/
+ #reseaux {
+   padding-bottom: 5%;
+ }
 
-  /*Position et couleur des fafa réseaux sociaux*/
-  #facebook, #twitter, #google {
-  margin-left: 15%;
-  color:#333;
-  }
+ /*Position et couleur des fafa réseaux sociaux*/
+ #facebook, #twitter, #google {
+   margin-left: 15%;
+   color:#212328;
+ }
+
+ #facebook:hover{
+   color:#283593 !important;
+ }
+
+ #twitter:hover{
+   color:#283593 !important;
+ }
+
+   #google:hover{
+   color:#283593 !important;
+ }
+
+
 
 
 /* ==========================================================================
