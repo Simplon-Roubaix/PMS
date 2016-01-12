@@ -94,9 +94,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 body{
     font-family:'Audiowide', cursive !important;
-    color:#212328 !important;
+    color:#212328 !important;}
+
+
+
+   section{
+       padding-top: 50px;
+       background-color: #eed39a;
+      /* background-color: white;*/
+   }
+
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
+  }
+
+/* Button play and note*/
+   .play{
+       width:140px;
+   }
+
+.vote{
+    width:140px;
+
 }
 
    /* NAVBAR*/
